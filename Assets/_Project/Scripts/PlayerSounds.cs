@@ -33,12 +33,11 @@ public class PlayerSounds : MonoBehaviour
 	public AudioStepClip[] CobbleAudioStep;
 
 	[Header("Debug")]
+	public bool UseDoubleSqueak = true;
 	public bool MakeStepSound;
 
 	private void Start()
 	{
-		_feet = GetComponent<Collider2D>();
-
 		Debug.Assert(CobbleTilemap != null, "All tilemaps must be filled in inspector");
 		Debug.Assert(BridgeTilemap != null, "All tilemaps must be filled in inspector");
 		Debug.Assert(PillowTilemap != null, "All tilemaps must be filled in inspector");
@@ -99,17 +98,34 @@ public class PlayerSounds : MonoBehaviour
 
 		var squeakVolume = squeakClip.volume;
 		var squeakVolumeVariation = squeakClip.volumeVariation;
+
 		if (stepClips.SequenceEqual(PillowAudioStep))
 		{
 			squeakVolume = squeakVolume * PillowSqueakMultiplier;
 			squeakVolumeVariation = squeakVolumeVariation * PillowSqueakMultiplier;
 		}
-		SoundHelper.PlaySoundWithVariation(
-			squeakClip.stepClip,
-			squeakVolume,
-			squeakVolumeVariation,
-			squeakClip.pitchVariation);
+		if (UseDoubleSqueak)
+		{
+			SoundHelper.PlaySoundWithVariation(
+				squeakClip.stepClip,
+				squeakVolume / 2,
+				squeakVolumeVariation,
+				squeakClip.pitchVariation);
 
+			SoundHelper.PlaySoundWithVariation(
+				squeakClip.stepClip,
+				squeakVolume / 2,
+				squeakVolumeVariation);
+		}
+		else
+		{
+			SoundHelper.PlaySoundWithVariation(
+				squeakClip.stepClip,
+				squeakVolume,
+				squeakVolumeVariation,
+				squeakClip.pitchVariation);
+
+		}
 		_alternatingIndex = (_alternatingIndex + 1) % stepClips.Length;
 		squeakIndex = (squeakIndex + 1) % SqueakAudioStep.Length;
 	}

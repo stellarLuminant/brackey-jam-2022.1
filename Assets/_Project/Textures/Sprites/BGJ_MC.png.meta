@@ -1,0 +1,7556 @@
+fileFormatVersion: 2
+guid: 4f82aa73c6cdabd4fb25eca278ad9aea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7000717396169972748
+    second: BGJ_MC 0
+  - first:
+      213: 4503180111088730814
+    second: BGJ_MC 1
+  - first:
+      213: 5961267547208558745
+    second: BGJ_MC 2
+  - first:
+      213: 5827337381873453224
+    second: BGJ_MC 3
+  - first:
+      213: 7850855169746759295
+    second: BGJ_MC 4
+  - first:
+      213: -1886142577401331914
+    second: BGJ_MC 5
+  - first:
+      213: 2882745915338767753
+    second: BGJ_MC 6
+  - first:
+      213: 7361939851509538852
+    second: BGJ_MC 7
+  - first:
+      213: 824781237859168023
+    second: BGJ_MC 8
+  - first:
+      213: -2996224660713664640
+    second: BGJ_MC 9
+  - first:
+      213: 4143062520997516391
+    second: BGJ_MC 10
+  - first:
+      213: -7623697774277833036
+    second: BGJ_MC 11
+  - first:
+      213: 2623045935922842081
+    second: BGJ_MC 12
+  - first:
+      213: 1100781515819945864
+    second: BGJ_MC 13
+  - first:
+      213: 443861546531303345
+    second: BGJ_MC 14
+  - first:
+      213: -2222107165160057560
+    second: BGJ_MC 15
+  - first:
+      213: -4967151876734484849
+    second: BGJ_MC 16
+  - first:
+      213: 453335229318886620
+    second: BGJ_MC 17
+  - first:
+      213: 6137246050153446668
+    second: BGJ_MC 18
+  - first:
+      213: 7845966856577813161
+    second: BGJ_MC 19
+  - first:
+      213: 7454440293952191456
+    second: BGJ_MC 20
+  - first:
+      213: -5604233810582140421
+    second: BGJ_MC 21
+  - first:
+      213: -1057365670885609575
+    second: BGJ_MC 22
+  - first:
+      213: 67986070720129219
+    second: BGJ_MC 23
+  - first:
+      213: -2619173668393233025
+    second: BGJ_MC 24
+  - first:
+      213: -644859285927080871
+    second: BGJ_MC 25
+  - first:
+      213: 233455721794672538
+    second: BGJ_MC 26
+  - first:
+      213: -2230429370202271485
+    second: BGJ_MC 27
+  - first:
+      213: 3318501834865290676
+    second: BGJ_MC 28
+  - first:
+      213: 2120856696015755213
+    second: BGJ_MC 29
+  - first:
+      213: 5019344930595519152
+    second: BGJ_MC 30
+  - first:
+      213: 8777224773141490455
+    second: BGJ_MC 31
+  - first:
+      213: -425302168703627297
+    second: BGJ_MC 32
+  - first:
+      213: -2660027815754112186
+    second: BGJ_MC 33
+  - first:
+      213: 6416471821982076339
+    second: BGJ_MC 34
+  - first:
+      213: -6637351166677299651
+    second: BGJ_MC 35
+  - first:
+      213: -4639709165107747659
+    second: BGJ_MC 36
+  - first:
+      213: -1693201019534760881
+    second: BGJ_MC 37
+  - first:
+      213: -2509355873469848077
+    second: BGJ_MC 38
+  - first:
+      213: -6851136375556348950
+    second: BGJ_MC 39
+  - first:
+      213: 4160744759308552375
+    second: BGJ_MC 40
+  - first:
+      213: -1833799507115582262
+    second: BGJ_MC 41
+  - first:
+      213: 8568049355986740793
+    second: BGJ_MC 42
+  - first:
+      213: 5602389136580753300
+    second: BGJ_MC 43
+  - first:
+      213: -40614843068522233
+    second: BGJ_MC 44
+  - first:
+      213: 1939899039780458974
+    second: BGJ_MC 45
+  - first:
+      213: 2701434009821638522
+    second: BGJ_MC 46
+  - first:
+      213: 2112474053195117154
+    second: BGJ_MC 47
+  - first:
+      213: 112352465908573062
+    second: BGJ_MC 48
+  - first:
+      213: -1709376924746070630
+    second: BGJ_MC 49
+  - first:
+      213: 8666558671486637353
+    second: BGJ_MC 50
+  - first:
+      213: -5942819738236305942
+    second: BGJ_MC 51
+  - first:
+      213: 402397850486998733
+    second: BGJ_MC 52
+  - first:
+      213: -4844595116707609316
+    second: BGJ_MC 53
+  - first:
+      213: 4496498518656427708
+    second: BGJ_MC 54
+  - first:
+      213: -3711990499305109183
+    second: BGJ_MC 55
+  - first:
+      213: 8812862321502702034
+    second: BGJ_MC 56
+  - first:
+      213: -4345749558354315135
+    second: BGJ_MC 57
+  - first:
+      213: 8785856980927094295
+    second: BGJ_MC 58
+  - first:
+      213: -5347347110421284514
+    second: BGJ_MC 59
+  - first:
+      213: -6327830798332406851
+    second: BGJ_MC 60
+  - first:
+      213: 3409770923359898331
+    second: BGJ_MC 61
+  - first:
+      213: -5710398760295647907
+    second: BGJ_MC 62
+  - first:
+      213: 3360652459467936833
+    second: BGJ_MC 63
+  - first:
+      213: -3279381472008077015
+    second: BGJ_MC 64
+  - first:
+      213: 1778687906578497115
+    second: BGJ_MC 65
+  - first:
+      213: 6815335414436557155
+    second: BGJ_MC 66
+  - first:
+      213: 2841371908182570196
+    second: BGJ_MC 67
+  - first:
+      213: -3828720072387583847
+    second: BGJ_MC 68
+  - first:
+      213: 8519326814290801346
+    second: BGJ_MC 69
+  - first:
+      213: 2944258444822146382
+    second: BGJ_MC 70
+  - first:
+      213: 4057103848630839677
+    second: BGJ_MC 71
+  - first:
+      213: -38112549319155480
+    second: BGJ_MC 72
+  - first:
+      213: -846343412236547432
+    second: BGJ_MC 73
+  - first:
+      213: -998563595012979829
+    second: BGJ_MC 74
+  - first:
+      213: -5941554640422710290
+    second: BGJ_MC 75
+  - first:
+      213: -5540664624487709588
+    second: BGJ_MC 76
+  - first:
+      213: 7282459229260808379
+    second: BGJ_MC 77
+  - first:
+      213: 6336104557838194749
+    second: BGJ_MC 78
+  - first:
+      213: 2125915289642269324
+    second: BGJ_MC 79
+  - first:
+      213: 6606348232480356643
+    second: BGJ_MC 80
+  - first:
+      213: 1044868572778828994
+    second: BGJ_MC 81
+  - first:
+      213: 7834229689079220777
+    second: BGJ_MC 82
+  - first:
+      213: 5217638880341076956
+    second: BGJ_MC 83
+  - first:
+      213: -7732028303546721641
+    second: BGJ_MC 84
+  - first:
+      213: -4618845617028684579
+    second: BGJ_MC 85
+  - first:
+      213: -6365867944231873585
+    second: BGJ_MC 86
+  - first:
+      213: -4605204782633150122
+    second: BGJ_MC 87
+  - first:
+      213: -8724133219106554676
+    second: BGJ_MC 88
+  - first:
+      213: -2603574142533888588
+    second: BGJ_MC 89
+  - first:
+      213: 2059733836845269759
+    second: BGJ_MC 90
+  - first:
+      213: 6622343051513475966
+    second: BGJ_MC 91
+  - first:
+      213: 9051354884552934077
+    second: BGJ_MC 92
+  - first:
+      213: -6043020039719901065
+    second: BGJ_MC 93
+  - first:
+      213: 3614598782294620449
+    second: BGJ_MC 94
+  - first:
+      213: 4484637996019104079
+    second: BGJ_MC 95
+  - first:
+      213: -6635280530842855235
+    second: BGJ_MC 96
+  - first:
+      213: 8503228398135903320
+    second: BGJ_MC 97
+  - first:
+      213: -2395895184985170722
+    second: BGJ_MC 98
+  - first:
+      213: 3571643835684261050
+    second: BGJ_MC 99
+  - first:
+      213: -3063208589823426169
+    second: BGJ_MC 100
+  - first:
+      213: 9027836156153914997
+    second: BGJ_MC 101
+  - first:
+      213: 5282133502569108713
+    second: BGJ_MC 102
+  - first:
+      213: -6334830208356637700
+    second: BGJ_MC 103
+  - first:
+      213: 1406719304228255367
+    second: BGJ_MC 104
+  - first:
+      213: -5919743644724778454
+    second: BGJ_MC 105
+  - first:
+      213: 9070995205449920443
+    second: BGJ_MC 106
+  - first:
+      213: 2886298282001035040
+    second: BGJ_MC 107
+  - first:
+      213: 304344383516280706
+    second: BGJ_MC 108
+  - first:
+      213: -8967800973460260210
+    second: BGJ_MC 109
+  - first:
+      213: -42081784443751066
+    second: BGJ_MC 110
+  - first:
+      213: 5792520851688593650
+    second: BGJ_MC 111
+  - first:
+      213: 5239078933612912022
+    second: BGJ_MC 112
+  - first:
+      213: 7798262387660496283
+    second: BGJ_MC 113
+  - first:
+      213: -4228249609767206994
+    second: BGJ_MC 114
+  - first:
+      213: 4878080414143814169
+    second: BGJ_MC 115
+  - first:
+      213: -6227715092943243679
+    second: BGJ_MC 116
+  - first:
+      213: -5661697251306885517
+    second: BGJ_MC 117
+  - first:
+      213: 2883776901152749645
+    second: BGJ_MC 118
+  - first:
+      213: -8203695011790539552
+    second: BGJ_MC 119
+  - first:
+      213: -1139344759197833284
+    second: BGJ_MC 120
+  - first:
+      213: 9198779916406032536
+    second: BGJ_MC 121
+  - first:
+      213: 5150377515849761978
+    second: BGJ_MC 122
+  - first:
+      213: -6447789624591080991
+    second: BGJ_MC 123
+  - first:
+      213: -4777149626769389822
+    second: BGJ_MC 124
+  - first:
+      213: 1631961736195281773
+    second: BGJ_MC 125
+  - first:
+      213: -3744198703227944691
+    second: BGJ_MC 126
+  - first:
+      213: 1631595238537008773
+    second: BGJ_MC 127
+  - first:
+      213: -5265376340059799821
+    second: BGJ_MC 128
+  - first:
+      213: -4457735353888156493
+    second: BGJ_MC 129
+  - first:
+      213: 752183884007855640
+    second: BGJ_MC 130
+  - first:
+      213: 952424118212084740
+    second: BGJ_MC 131
+  - first:
+      213: 631477140579499984
+    second: BGJ_MC 132
+  - first:
+      213: 3701795456442091612
+    second: BGJ_MC 133
+  - first:
+      213: 5239393382925525497
+    second: BGJ_MC 134
+  - first:
+      213: -3098334827606968384
+    second: BGJ_MC 135
+  - first:
+      213: 4557271097320588817
+    second: BGJ_MC 136
+  - first:
+      213: 5029704422813067618
+    second: BGJ_MC 137
+  - first:
+      213: -7339485035664568218
+    second: BGJ_MC 138
+  - first:
+      213: -6372941051389343131
+    second: BGJ_MC 139
+  - first:
+      213: 1604440333587569195
+    second: BGJ_MC 140
+  - first:
+      213: -6198139834156146543
+    second: BGJ_MC 141
+  - first:
+      213: -2112608064095946501
+    second: BGJ_MC 142
+  - first:
+      213: -5648249601552638499
+    second: BGJ_MC 143
+  - first:
+      213: -2674213069493910083
+    second: BGJ_MC 144
+  - first:
+      213: 2714673577809923372
+    second: BGJ_MC 145
+  - first:
+      213: 1291044808661475905
+    second: BGJ_MC 146
+  - first:
+      213: 5815606372799147051
+    second: BGJ_MC 147
+  - first:
+      213: -3868738007921991448
+    second: BGJ_MC 148
+  - first:
+      213: -4246872784258365480
+    second: BGJ_MC 149
+  - first:
+      213: 598901254430967900
+    second: BGJ_MC 150
+  - first:
+      213: 1927171212261535900
+    second: BGJ_MC 151
+  - first:
+      213: 2942249511364999976
+    second: BGJ_MC 152
+  - first:
+      213: -3896030391978253310
+    second: BGJ_MC 153
+  - first:
+      213: 6009168329848403895
+    second: BGJ_MC 154
+  - first:
+      213: 2495165447434821208
+    second: BGJ_MC 155
+  - first:
+      213: -359629299345017738
+    second: BGJ_MC 156
+  - first:
+      213: -4027624509132756054
+    second: BGJ_MC 157
+  - first:
+      213: 2308190794816870374
+    second: BGJ_MC 158
+  - first:
+      213: -5468721141039165133
+    second: BGJ_MC 159
+  - first:
+      213: -7320750244278731163
+    second: BGJ_MC 160
+  - first:
+      213: 4241028154099215415
+    second: BGJ_MC 161
+  - first:
+      213: -4841103962501460109
+    second: BGJ_MC 162
+  - first:
+      213: -2818260021817935968
+    second: BGJ_MC 163
+  - first:
+      213: 3555201218401609731
+    second: BGJ_MC 164
+  - first:
+      213: -3569931777501545317
+    second: BGJ_MC 165
+  - first:
+      213: -3849654868370225145
+    second: BGJ_MC 166
+  - first:
+      213: -5927605299785436401
+    second: BGJ_MC 167
+  - first:
+      213: 2428757243633416279
+    second: BGJ_MC 168
+  - first:
+      213: -1675297622302279086
+    second: BGJ_MC 169
+  - first:
+      213: -8237567467827170475
+    second: BGJ_MC 170
+  - first:
+      213: -7129582201609894492
+    second: BGJ_MC 171
+  - first:
+      213: 8090913565544697282
+    second: BGJ_MC 172
+  - first:
+      213: 689819445648569861
+    second: BGJ_MC 173
+  - first:
+      213: -7696341729307655547
+    second: BGJ_MC 174
+  - first:
+      213: 7132137742692560686
+    second: BGJ_MC 175
+  - first:
+      213: -5234032287952808995
+    second: BGJ_MC 176
+  - first:
+      213: -1754042528055359624
+    second: BGJ_MC 177
+  - first:
+      213: -5183164929382593357
+    second: BGJ_MC 178
+  - first:
+      213: 5572258404614969230
+    second: BGJ_MC 179
+  - first:
+      213: 6571657366263254143
+    second: BGJ_MC 180
+  - first:
+      213: 4776477059914977774
+    second: BGJ_MC 181
+  - first:
+      213: 2120914756189738868
+    second: BGJ_MC 182
+  - first:
+      213: -6458077668946791891
+    second: BGJ_MC 183
+  - first:
+      213: -4623521827177878771
+    second: BGJ_MC 184
+  - first:
+      213: -1800143718727323339
+    second: BGJ_MC 185
+  - first:
+      213: -2103350850728956447
+    second: BGJ_MC 186
+  - first:
+      213: 2186564438068518926
+    second: BGJ_MC 187
+  - first:
+      213: -3505427966197784578
+    second: BGJ_MC 188
+  - first:
+      213: -3724467354223037189
+    second: BGJ_MC 189
+  - first:
+      213: -8648060194855627948
+    second: BGJ_MC 190
+  - first:
+      213: -7634567779969589875
+    second: BGJ_MC 191
+  - first:
+      213: -6328435155697865114
+    second: BGJ_MC 192
+  - first:
+      213: -7758294491890956521
+    second: BGJ_MC 193
+  - first:
+      213: 1938153159445608648
+    second: BGJ_MC 194
+  - first:
+      213: 2696899687024761150
+    second: BGJ_MC 195
+  - first:
+      213: -5480619444511140630
+    second: BGJ_MC 196
+  - first:
+      213: 421984964561069539
+    second: BGJ_MC 197
+  - first:
+      213: 1510163962361763917
+    second: BGJ_MC 198
+  - first:
+      213: 2456260850347644807
+    second: BGJ_MC 199
+  - first:
+      213: 1054940388766232163
+    second: BGJ_MC 200
+  - first:
+      213: -1491671382586292791
+    second: BGJ_MC 201
+  - first:
+      213: 7874439394495136320
+    second: BGJ_MC 202
+  - first:
+      213: 6273674572699629617
+    second: BGJ_MC 203
+  - first:
+      213: -3999011962178064172
+    second: BGJ_MC 204
+  - first:
+      213: -2926008273975600101
+    second: BGJ_MC 205
+  - first:
+      213: -79804842379292558
+    second: BGJ_MC 206
+  - first:
+      213: -6323215184759688722
+    second: BGJ_MC 207
+  - first:
+      213: -6751303822184950743
+    second: BGJ_MC 208
+  - first:
+      213: 5970267026392617824
+    second: BGJ_MC 209
+  - first:
+      213: 2179005153052478975
+    second: BGJ_MC 210
+  - first:
+      213: -4310845997071967061
+    second: BGJ_MC 211
+  - first:
+      213: -2367372750688047741
+    second: BGJ_MC 212
+  - first:
+      213: -361453864938058466
+    second: BGJ_MC 213
+  - first:
+      213: 6225967464953562805
+    second: BGJ_MC 214
+  - first:
+      213: 3363359854135784867
+    second: BGJ_MC 215
+  - first:
+      213: -5242419966351549498
+    second: BGJ_MC 216
+  - first:
+      213: 5533188614101383205
+    second: BGJ_MC 217
+  - first:
+      213: 1073563030707715464
+    second: BGJ_MC 218
+  - first:
+      213: -1558058628746278450
+    second: BGJ_MC 219
+  - first:
+      213: -204171162922467143
+    second: BGJ_MC 220
+  - first:
+      213: 2472205623803396288
+    second: BGJ_MC 221
+  - first:
+      213: 6558349223210106809
+    second: BGJ_MC 222
+  - first:
+      213: -3880582541343234906
+    second: BGJ_MC 223
+  - first:
+      213: 6499995295247579264
+    second: BGJ_MC 224
+  - first:
+      213: -4027022065233486167
+    second: BGJ_MC 225
+  - first:
+      213: -8231845091427042899
+    second: BGJ_MC 226
+  - first:
+      213: -6481675941106330242
+    second: BGJ_MC 227
+  - first:
+      213: -3039294268358639873
+    second: BGJ_MC 228
+  - first:
+      213: -43691142684300749
+    second: BGJ_MC 229
+  - first:
+      213: -7538338160101527423
+    second: BGJ_MC 230
+  - first:
+      213: -8402363688474489786
+    second: BGJ_MC 231
+  - first:
+      213: -790245364461059710
+    second: BGJ_MC 232
+  - first:
+      213: 4415638399135322613
+    second: BGJ_MC 233
+  - first:
+      213: -5810424789560514300
+    second: BGJ_MC 234
+  - first:
+      213: 8835588064171032445
+    second: BGJ_MC 235
+  - first:
+      213: -7801599272980370868
+    second: BGJ_MC 236
+  - first:
+      213: 1470942435049371040
+    second: BGJ_MC 237
+  - first:
+      213: 5374775272249144765
+    second: BGJ_MC 238
+  - first:
+      213: -5128669409352328540
+    second: BGJ_MC 239
+  - first:
+      213: -3682706293260452353
+    second: BGJ_MC 240
+  - first:
+      213: -688930451467044042
+    second: BGJ_MC 241
+  - first:
+      213: 397883675833886822
+    second: BGJ_MC 242
+  - first:
+      213: 3326624988547577801
+    second: BGJ_MC 243
+  - first:
+      213: -5058989450139824161
+    second: BGJ_MC 244
+  - first:
+      213: 115888271061772891
+    second: BGJ_MC 245
+  - first:
+      213: 5807946478912876345
+    second: BGJ_MC 246
+  - first:
+      213: -592003755408296367
+    second: BGJ_MC 247
+  - first:
+      213: 4098300417939753314
+    second: BGJ_MC 248
+  - first:
+      213: -7424761065800275563
+    second: BGJ_MC 249
+  - first:
+      213: -583592228297537886
+    second: BGJ_MC 250
+  - first:
+      213: -5205690038123907200
+    second: BGJ_MC 251
+  - first:
+      213: 978065709037726840
+    second: BGJ_MC 252
+  - first:
+      213: 6175775633232712079
+    second: BGJ_MC 253
+  - first:
+      213: 8010410084487299394
+    second: BGJ_MC 254
+  - first:
+      213: -3834144744145205864
+    second: BGJ_MC 255
+  - first:
+      213: 7442775815598005039
+    second: BGJ_MC 256
+  - first:
+      213: -7602613202222490135
+    second: BGJ_MC 257
+  - first:
+      213: 8051311479204265555
+    second: BGJ_MC 258
+  - first:
+      213: 4517338770344158403
+    second: BGJ_MC 259
+  - first:
+      213: 5208937068735661192
+    second: BGJ_MC 260
+  - first:
+      213: 8425261261586905798
+    second: BGJ_MC 261
+  - first:
+      213: 8929155594398407135
+    second: BGJ_MC 262
+  - first:
+      213: 367636986621801090
+    second: BGJ_MC 263
+  - first:
+      213: 702718977089657947
+    second: BGJ_MC 264
+  - first:
+      213: 514696734306875137
+    second: BGJ_MC 265
+  - first:
+      213: -8233657567142260584
+    second: BGJ_MC 266
+  - first:
+      213: 5892292587960332066
+    second: BGJ_MC 267
+  - first:
+      213: -4801060747023839858
+    second: BGJ_MC 268
+  - first:
+      213: 7504439041579418569
+    second: BGJ_MC 269
+  - first:
+      213: -7613545929304259234
+    second: BGJ_MC 270
+  - first:
+      213: -374944647186498470
+    second: BGJ_MC 271
+  - first:
+      213: -8185659642279671753
+    second: BGJ_MC 272
+  - first:
+      213: 2979471118181748964
+    second: BGJ_MC 273
+  - first:
+      213: -7803180388740557030
+    second: BGJ_MC 274
+  - first:
+      213: -1460496603985889947
+    second: BGJ_MC 275
+  - first:
+      213: -1954728325016853123
+    second: BGJ_MC 276
+  - first:
+      213: -8727966831360676139
+    second: BGJ_MC 277
+  - first:
+      213: -3245974855356794140
+    second: BGJ_MC 278
+  - first:
+      213: 3964071323776971255
+    second: BGJ_MC 279
+  - first:
+      213: -2111110523359445715
+    second: BGJ_MC 280
+  - first:
+      213: 1263619907585501043
+    second: BGJ_MC 281
+  - first:
+      213: 7098512079871292077
+    second: BGJ_MC 282
+  - first:
+      213: -3846600026493595015
+    second: BGJ_MC 283
+  - first:
+      213: -1850042466025659673
+    second: BGJ_MC 284
+  - first:
+      213: 914409095514150937
+    second: BGJ_MC 285
+  - first:
+      213: -7514954956225788558
+    second: BGJ_MC 286
+  - first:
+      213: 6768504023371691524
+    second: BGJ_MC 287
+  - first:
+      213: -3638576094138859117
+    second: BGJ_MC 288
+  - first:
+      213: 3672028529437129511
+    second: BGJ_MC 289
+  - first:
+      213: -3972032806047797175
+    second: BGJ_MC 290
+  - first:
+      213: -7119400335286423464
+    second: BGJ_MC 291
+  - first:
+      213: 8770406768014463714
+    second: BGJ_MC 292
+  - first:
+      213: 8310388792415886184
+    second: BGJ_MC 293
+  - first:
+      213: -5981319123085928113
+    second: BGJ_MC 294
+  - first:
+      213: -8867256991094932607
+    second: BGJ_MC 295
+  - first:
+      213: 842580851838006719
+    second: BGJ_MC 296
+  - first:
+      213: 2420825313835854157
+    second: BGJ_MC 297
+  - first:
+      213: 1226560728680395993
+    second: BGJ_MC 298
+  - first:
+      213: -7482501739504844462
+    second: BGJ_MC 299
+  - first:
+      213: 2203064709280047846
+    second: BGJ_MC 300
+  - first:
+      213: 5877113403265213438
+    second: BGJ_MC 301
+  - first:
+      213: 8532508985200665180
+    second: BGJ_MC 302
+  - first:
+      213: 3031034676070934817
+    second: BGJ_MC 303
+  - first:
+      213: 8024623155652693260
+    second: BGJ_MC 304
+  - first:
+      213: 2277341877186183466
+    second: BGJ_MC 305
+  - first:
+      213: -5495879361425624904
+    second: BGJ_MC 306
+  - first:
+      213: -3228990781701523039
+    second: BGJ_MC 307
+  - first:
+      213: -6065815009552931552
+    second: BGJ_MC 308
+  - first:
+      213: -2458424213305798919
+    second: BGJ_MC 309
+  - first:
+      213: 3036678127254627232
+    second: BGJ_MC 310
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1092
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGJ_MC 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3246c9e9478de90800000000000000
+      internalID: -7000717396169972748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb24c01c3728e7e30800000000000000
+      internalID: 4503180111088730814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9982e62004daab250800000000000000
+      internalID: 5961267547208558745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a80ce8697cded050800000000000000
+      internalID: 5827337381873453224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e6bc76e27d3fc60800000000000000
+      internalID: 7850855169746759295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ff04ea15313d5e0800000000000000
+      internalID: -1886142577401331914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 6
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98db975f222910820800000000000000
+      internalID: 2882745915338767753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420a40b2a4dda2660800000000000000
+      internalID: 7361939851509538852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 8
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fa00c7a26327b00800000000000000
+      internalID: 824781237859168023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 9
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f85e6bb854b66d0800000000000000
+      internalID: -2996224660713664640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 10
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7649a46796d1f7930800000000000000
+      internalID: 4143062520997516391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 11
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4becb31344f233690800000000000000
+      internalID: -7623697774277833036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 12
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e98638916ee66420800000000000000
+      internalID: 2623045935922842081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 13
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f83c9d4f2c64f00800000000000000
+      internalID: 1100781515819945864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf247299b9e82600800000000000000
+      internalID: 443861546531303345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825d8c77e4d7921e0800000000000000
+      internalID: -2222107165160057560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e73d96fa1211bb0800000000000000
+      internalID: -4967151876734484849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4f8bb3df19a4600800000000000000
+      internalID: 453335229318886620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0db09e14c0eb2550800000000000000
+      internalID: 6137246050153446668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa0fcd494972ec60800000000000000
+      internalID: 7845966856577813161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebf068b3fd737760800000000000000
+      internalID: 7454440293952191456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 21
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf98402ba03c932b0800000000000000
+      internalID: -5604233810582140421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fab25468b7351f0800000000000000
+      internalID: -1057365670885609575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 23
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8a2fa98f881f000800000000000000
+      internalID: 67986070720129219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 24
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f755d52fc63d6abd0800000000000000
+      internalID: -2619173668393233025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 25
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c443465effc07f0800000000000000
+      internalID: -644859285927080871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 26
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a979a58fdb66d3300800000000000000
+      internalID: 233455721794672538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 27
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301de7c1e4ceb01e0800000000000000
+      internalID: -2230429370202271485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bda0ad26dfad0e20800000000000000
+      internalID: 3318501834865290676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 29
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc71781adebce6d10800000000000000
+      internalID: 2120856696015755213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 30
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0babd49ee9b48a540800000000000000
+      internalID: 5019344930595519152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b6bdc6d67fec970800000000000000
+      internalID: 8777224773141490455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 32
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf87305ee5091af0800000000000000
+      internalID: -425302168703627297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64361558bcea51bd0800000000000000
+      internalID: -2660027815754112186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 34
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd8b8c4023eb0950800000000000000
+      internalID: 6416471821982076339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 35
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ecca4b74463e3a0800000000000000
+      internalID: -6637351166677299651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 36
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4e0a8b8117c9fb0800000000000000
+      internalID: -4639709165107747659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 37
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f442d49c4aa8088e0800000000000000
+      internalID: -1693201019534760881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 38
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f52ac2d02afc2dd0800000000000000
+      internalID: -2509355873469848077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 39
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3e43be3cfdbe0a0800000000000000
+      internalID: -6851136375556348950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 40
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b887a3605fedb930800000000000000
+      internalID: 4160744759308552375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 41
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accd61d60190d86e0800000000000000
+      internalID: -1833799507115582262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936aa996e73d7e670800000000000000
+      internalID: 8568049355986740793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 43
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497376bac3fafbd40800000000000000
+      internalID: 5602389136580753300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 44
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701ea42f305bf6ff0800000000000000
+      internalID: -40614843068522233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 45
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed15c3e06e7ebea10800000000000000
+      internalID: 1939899039780458974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 46
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fe39b4beb6d7520800000000000000
+      internalID: 2701434009821638522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 47
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262bce185f3015d10800000000000000
+      internalID: 2112474053195117154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 48
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683ae14f8f72f8100800000000000000
+      internalID: 112352465908573062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 49
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95c24d5eb21748e0800000000000000
+      internalID: -1709376924746070630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 50
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925da0fb13dc54870800000000000000
+      internalID: 8666558671486637353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 51
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedbe3a3fecd68da0800000000000000
+      internalID: -5942819738236305942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 52
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc688a886ba959500800000000000000
+      internalID: 402397850486998733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 53
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c150d0cb86a84ccb0800000000000000
+      internalID: -4844595116707609316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 54
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb626994495c66e30800000000000000
+      internalID: 4496498518656427708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 55
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1494b4fce4c5c7cc0800000000000000
+      internalID: -3711990499305109183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9c79fb6939d4a70800000000000000
+      internalID: 8812862321502702034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 57
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188fa7b2dcbc0b3c0800000000000000
+      internalID: -4345749558354315135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e9b8bef52ade970800000000000000
+      internalID: 8785856980927094295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 59
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59b0a072286ac5b0800000000000000
+      internalID: -5347347110421284514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 60
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3de9a4a670f28a0800000000000000
+      internalID: -6327830798332406851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 61
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda825cc690f15f20800000000000000
+      internalID: 3409770923359898331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d553fbe159690c0b0800000000000000
+      internalID: -5710398760295647907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 63
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144112c3b9f63ae20800000000000000
+      internalID: 3360652459467936833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 64
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92106f51deb4d72d0800000000000000
+      internalID: -3279381472008077015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 65
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ef4e52a3b2fa810800000000000000
+      internalID: 1778687906578497115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36171a2437fe49e50800000000000000
+      internalID: 6815335414436557155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 67
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4fefd32b49e6720800000000000000
+      internalID: 2841371908182570196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 68
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9902eec2167addac0800000000000000
+      internalID: -3828720072387583847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 69
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2734ba99aba3670800000000000000
+      internalID: 8519326814290801346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 70
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d619ac47b1cd820800000000000000
+      internalID: 2944258444822146382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 71
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79e282747abd4830800000000000000
+      internalID: 4057103848630839677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 72
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0e85c96d8987ff0800000000000000
+      internalID: -38112549319155480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 73
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a06a3962f2144f0800000000000000
+      internalID: -846343412236547432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b834d9173b36422f0800000000000000
+      internalID: -998563595012979829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 75
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3d704c88b5b8da0800000000000000
+      internalID: -5941554640422710290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 76
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6446d531ea9b13b0800000000000000
+      internalID: -5540664624487709588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 77
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb00b5bb51e701560800000000000000
+      internalID: 7282459229260808379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 78
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38dda5768d5ee750800000000000000
+      internalID: 6336104557838194749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 79
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8af2bd31b4c08d10800000000000000
+      internalID: 2125915289642269324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 80
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329758b27b67eab50800000000000000
+      internalID: 6606348232480356643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 81
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c493755e6e108e00800000000000000
+      internalID: 1044868572778828994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 82
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ac26a0566c8bc60800000000000000
+      internalID: 7834229689079220777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 83
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb2ffcdae6c86840800000000000000
+      internalID: 5217638880341076956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ad4d5593152b490800000000000000
+      internalID: -7732028303546721641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 85
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4a2ac026096efb0800000000000000
+      internalID: -4618845617028684579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 86
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3530125d4e7a7a0800000000000000
+      internalID: -6365867944231873585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 87
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659983d46a60710c0800000000000000
+      internalID: -4605204782633150122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 88
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccf7f54f07ade680800000000000000
+      internalID: -8724133219106554676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 89
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b510e79c1f3edbd0800000000000000
+      internalID: -2603574142533888588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2c30df205a59c10800000000000000
+      internalID: 2059733836845269759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 91
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73bc3e2be947eb50800000000000000
+      internalID: 6622343051513475966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 92
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db246c5bf4fdc9d70800000000000000
+      internalID: 9051354884552934077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 93
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778ade98a41e22ca0800000000000000
+      internalID: -6043020039719901065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 94
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129fa380172a92230800000000000000
+      internalID: 3614598782294620449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 95
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4930fa2f72ac3e30800000000000000
+      internalID: 4484637996019104079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 96
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 726
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8db0e238fbae3a0800000000000000
+      internalID: -6635280530842855235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 97
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85487e21d29810670800000000000000
+      internalID: 8503228398135903320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 98
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcd3e3f50210ced0800000000000000
+      internalID: -2395895184985170722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 99
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc8c2a2527019130800000000000000
+      internalID: 3571643835684261050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 100
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78146a2640c4d75d0800000000000000
+      internalID: -3063208589823426169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 101
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5766bf90721594d70800000000000000
+      internalID: 9027836156153914997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e452d44f68ed4940800000000000000
+      internalID: 5282133502569108713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf32d762d792618a0800000000000000
+      internalID: -6334830208356637700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 104
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786b53b01cba58310800000000000000
+      internalID: 1406719304228255367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 105
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2aadcee488d8dda0800000000000000
+      internalID: -5919743644724778454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 106
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf2d144416a2ed70800000000000000
+      internalID: 9070995205449920443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 107
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fed76cef03e0820800000000000000
+      internalID: 2886298282001035040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2878fd4ba9f393400800000000000000
+      internalID: 304344383516280706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 109
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8abf703788fb8380800000000000000
+      internalID: -8967800973460260210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 110
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66537ba07de7a6ff0800000000000000
+      internalID: -42081784443751066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 111
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 660
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f811f6460b236050800000000000000
+      internalID: 5792520851688593650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 112
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dda344882f4b840800000000000000
+      internalID: 5239078933612912022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 113
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d1bc9135ef83c60800000000000000
+      internalID: 7798262387660496283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 114
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 594
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf3424d16d3255c0800000000000000
+      internalID: -4228249609767206994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a15de9a4c62b340800000000000000
+      internalID: 4878080414143814169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 116
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16677ca6e16b299a0800000000000000
+      internalID: -6227715092943243679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 117
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 528
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e2c0ec85c9d61b0800000000000000
+      internalID: -5661697251306885517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48bfac00db350820800000000000000
+      internalID: 2883776901152749645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 119
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4b4901ade962e80800000000000000
+      internalID: -8203695011790539552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 120
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb76f4f5afb3030f0800000000000000
+      internalID: -1139344759197833284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 121
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8980164c891a8af70800000000000000
+      internalID: 9198779916406032536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 122
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab442631011d97740800000000000000
+      internalID: 5150377515849761978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 123
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1accf8f79d486a0800000000000000
+      internalID: -6447789624591080991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 124
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207458199b724bdb0800000000000000
+      internalID: -4777149626769389822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 125
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6313f47d84e5a610800000000000000
+      internalID: 1631961736195281773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 126
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01ce95fd1fe90cc0800000000000000
+      internalID: -3744198703227944691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 127
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5869732993794a610800000000000000
+      internalID: 1631595238537008773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 128
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe3df9ad10ade6b0800000000000000
+      internalID: -5265376340059799821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 129
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4dbc05051f222c0800000000000000
+      internalID: -4457735353888156493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 130
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816df0cd14b407a00800000000000000
+      internalID: 752183884007855640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 131
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404cb8970b0b73d00800000000000000
+      internalID: 952424118212084740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 132
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df35081d1573c800800000000000000
+      internalID: 631477140579499984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 133
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58c26cca5b6f5330800000000000000
+      internalID: 3701795456442091612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 134
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1eec3b58016b840800000000000000
+      internalID: 5239393382925525497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 135
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7f345d3e08005d0800000000000000
+      internalID: -3098334827606968384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 136
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116c2f4eaedae3f30800000000000000
+      internalID: 4557271097320588817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 137
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269ebf626891dc540800000000000000
+      internalID: 5029704422813067618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 138
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6601bee0f39e42a90800000000000000
+      internalID: -7339485035664568218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 139
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a0f6901e3ce87a0800000000000000
+      internalID: -6372941051389343131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 140
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2adbc29bfd144610800000000000000
+      internalID: 1604440333587569195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190ace4f8a8cbf9a0800000000000000
+      internalID: -6198139834156146543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 142
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf87fe5a8228ea2e0800000000000000
+      internalID: -2112608064095946501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd96b0c9e26d91b0800000000000000
+      internalID: -5648249601552638499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 144
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5cb13c16943ead0800000000000000
+      internalID: -2674213069493910083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 145
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dcf7e6c357ca520800000000000000
+      internalID: 2714673577809923372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 146
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1422169c966bae110800000000000000
+      internalID: 1291044808661475905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 147
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ce0340f2f25b050800000000000000
+      internalID: 5815606372799147051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 148
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0e1cc774b7f4ac0800000000000000
+      internalID: -3868738007921991448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 149
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7810024b31015c0800000000000000
+      internalID: -4246872784258365480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 150
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58c4ed8489bf4800800000000000000
+      internalID: 598901254430967900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 151
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c903538c100beba10800000000000000
+      internalID: 1927171212261535900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 152
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b3a758758f4d820800000000000000
+      internalID: 2942249511364999976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 153
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a20420058ee9c0800000000000000
+      internalID: -3896030391978253310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 154
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7342012cad46350800000000000000
+      internalID: 6009168329848403895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 155
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e5e2621cb90a220800000000000000
+      internalID: 2495165447434821208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 156
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674b7b1ce07520bf0800000000000000
+      internalID: -359629299345017738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 157
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab2c7429d00b18c0800000000000000
+      internalID: -4027624509132756054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 158
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7d2ee6c47580020800000000000000
+      internalID: 2308190794816870374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 159
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33111b4c8133b14b0800000000000000
+      internalID: -5468721141039165133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 160
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e79689078776a90800000000000000
+      internalID: -7320750244278731163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 161
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ca38fd2a82bda30800000000000000
+      internalID: 4241028154099215415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 162
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f4d5a6891f0dcb0800000000000000
+      internalID: -4841103962501460109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 163
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a77bd2217783e8d0800000000000000
+      internalID: -2818260021817935968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 164
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3082ddffbac965130800000000000000
+      internalID: 3555201218401609731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 165
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 462
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c34a176fd057ec0800000000000000
+      internalID: -3569931777501545317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 166
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70880f62b47439ac0800000000000000
+      internalID: -3849654868370225145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 167
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03f099b26aecbda0800000000000000
+      internalID: -5927605299785436401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 168
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7583d6058dda4b120800000000000000
+      internalID: 2428757243633416279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25abd9940b520c8e0800000000000000
+      internalID: -1675297622302279086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 170
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553f8d258084ead80800000000000000
+      internalID: -8237567467827170475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 171
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5481403c2ae0d90800000000000000
+      internalID: -7129582201609894492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 172
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd4ea63503b84070800000000000000
+      internalID: 8090913565544697282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 173
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5063a09812bb29900800000000000000
+      internalID: 689819445648569861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5820a9269f9113590800000000000000
+      internalID: -7696341729307655547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 175
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fa8524d717af260800000000000000
+      internalID: 7132137742692560686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 176
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3d5ad7d5bfc57b0800000000000000
+      internalID: -5234032287952808995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 177
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87705523d9368a7e0800000000000000
+      internalID: -1754042528055359624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 178
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc43e355f2b118b0800000000000000
+      internalID: -5183164929382593357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 179
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8792c3fe73a45d40800000000000000
+      internalID: 5572258404614969230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c43b57e87333b50800000000000000
+      internalID: 6571657366263254143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 181
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1d8024494794240800000000000000
+      internalID: 4776477059914977774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 182
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477d291dbb00f6d10800000000000000
+      internalID: 2120914756189738868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 183
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d223b82939c4066a0800000000000000
+      internalID: -6458077668946791891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 184
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b2cc70563f5dfb0800000000000000
+      internalID: -4623521827177878771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 185
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5317b9c43da9407e0800000000000000
+      internalID: -1800143718727323339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ede8489b856fc2e0800000000000000
+      internalID: -2103350850728956447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 187
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00639185cc385e10800000000000000
+      internalID: 2186564438068518926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 188
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff9f0956d73a5fc0800000000000000
+      internalID: -3505427966197784578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 189
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 396
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf43ff5aca8005cc0800000000000000
+      internalID: -3724467354223037189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 190
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4535f69721bebf780800000000000000
+      internalID: -8648060194855627948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 191
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d1545cd019c0690800000000000000
+      internalID: -7634567779969589875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 192
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ee88061c1ec28a0800000000000000
+      internalID: -6328435155697865114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 193
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71748fbc340055490800000000000000
+      internalID: -7758294491890956521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 194
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c87e0d9704b5ea10800000000000000
+      internalID: 1938153159445608648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 195
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3919fff9ff4d6520800000000000000
+      internalID: 2696899687024761150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 196
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae490dc17ade0f3b0800000000000000
+      internalID: -5480619444511140630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 197
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5e739e6113bd500800000000000000
+      internalID: 421984964561069539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d485b216f1e25f410800000000000000
+      internalID: 1510163962361763917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 199
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7879ba4ca34661220800000000000000
+      internalID: 2456260850347644807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 200
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eaf9bb1b6e3ae00800000000000000
+      internalID: 1054940388766232163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 201
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5045fd7c48c4be0800000000000000
+      internalID: -1491671382586292791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 202
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0428932a8e0a74d60800000000000000
+      internalID: 7874439394495136320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 203
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1387926d8c1901750800000000000000
+      internalID: 6273674572699629617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0b6dddec7a088c0800000000000000
+      internalID: -3999011962178064172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 205
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c94db3afab467d0800000000000000
+      internalID: -2926008273975600101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 206
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27050ae2be974eef0800000000000000
+      internalID: -79804842379292558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 207
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1fa029a4d6f38a0800000000000000
+      internalID: -6323215184759688722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 208
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924dde391fc8e42a0800000000000000
+      internalID: -6751303822184950743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 209
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0631c5a8a36aad250800000000000000
+      internalID: 5970267026392617824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd407f44a16d3e10800000000000000
+      internalID: 2179005153052478975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 211
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac5c1fc76ccc24c0800000000000000
+      internalID: -4310845997071967061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 212
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 330
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dac40b607652fd0800000000000000
+      internalID: -2367372750688047741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 213
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dcca9ff9bdbfaf0800000000000000
+      internalID: -361453864938058466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 214
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b642bb3c64176650800000000000000
+      internalID: 6225967464953562805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 215
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5b29da7fd0dae20800000000000000
+      internalID: 3363359854135784867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 216
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb533ee0de2f37b0800000000000000
+      internalID: -5242419966351549498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 217
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528bfba7ab5d9cc40800000000000000
+      internalID: 5533188614101383205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 218
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d335173ef06ee00800000000000000
+      internalID: 1073563030707715464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 219
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9885e9ee9a06ae0800000000000000
+      internalID: -1558058628746278450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 792
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0c0a8b863aa2df0800000000000000
+      internalID: -204171162922467143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 221
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c04682aae90f4220800000000000000
+      internalID: 2472205623803396288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 222
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfb562fedfe30b50800000000000000
+      internalID: 6558349223210106809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 223
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a467a52db6652ac0800000000000000
+      internalID: -3880582541343234906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 224
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08831f6584f943a50800000000000000
+      internalID: 6499995295247579264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 225
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae191b84c42d18c0800000000000000
+      internalID: -4027022065233486167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 226
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9b277e08c92cd80800000000000000
+      internalID: -8231845091427042899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 227
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75592da2167c06a0800000000000000
+      internalID: -6481675941106330242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 228
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe3a9e37f142d5d0800000000000000
+      internalID: -3039294268358639873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 229
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aa8702327c46ff0800000000000000
+      internalID: -43691142684300749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 230
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180706a1261726790800000000000000
+      internalID: -7538338160101527423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 231
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c46d23ebec46b80800000000000000
+      internalID: -8402363688474489786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 232
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28146e5270c7805f0800000000000000
+      internalID: -790245364461059710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 233
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1190d9abf774d30800000000000000
+      internalID: 4415638399135322613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 234
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4092f1850793d5fa0800000000000000
+      internalID: -5810424789560514300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 235
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 264
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f789a08805e9a70800000000000000
+      internalID: 8835588064171032445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 236
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a2f0ebbc62bb390800000000000000
+      internalID: -7801599272980370868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 237
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a57a2ee956d96410800000000000000
+      internalID: 1470942435049371040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 238
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5b6f122a9079a40800000000000000
+      internalID: 5374775272249144765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 239
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa5425585e43d8b0800000000000000
+      internalID: -5128669409352328540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 240
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd7d1a532664ecc0800000000000000
+      internalID: -3682706293260452353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 241
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b7b5d876d6076f0800000000000000
+      internalID: -688930451467044042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 242
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66861085811958500800000000000000
+      internalID: 397883675833886822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 243
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7f0574dcb8a2e20800000000000000
+      internalID: 3326624988547577801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 244
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf87f516ebdac9b0800000000000000
+      internalID: -5058989450139824161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 245
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a654eb4c7bb9100800000000000000
+      internalID: 115888271061772891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 246
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f251efc88f99050800000000000000
+      internalID: 5807946478912876345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 247
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156f03598b7c8c7f0800000000000000
+      internalID: -592003755408296367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 248
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2694222348610e830800000000000000
+      internalID: 4098300417939753314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 249
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 198
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599e2d21623f5f890800000000000000
+      internalID: -7424761065800275563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 250
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a685aad5f9a6e7f0800000000000000
+      internalID: -583592228297537886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 251
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087b5d2cd7ca1c7b0800000000000000
+      internalID: -5205690038123907200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 252
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c2f229499c29d00800000000000000
+      internalID: 978065709037726840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 253
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81595fb733c4b550800000000000000
+      internalID: 6175775633232712079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 254
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2418217e781ba2f60800000000000000
+      internalID: 8010410084487299394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 255
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8954bcb5ba16acac0800000000000000
+      internalID: -3834144744145205864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 256
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b5697bb2d0a4760800000000000000
+      internalID: 7442775815598005039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 257
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed55dca2971e7690800000000000000
+      internalID: -7602613202222490135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 258
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ebef5f1210cbf60800000000000000
+      internalID: 8051311479204265555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 259
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4a6708dafc0be30800000000000000
+      internalID: 4517338770344158403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 260
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8848a577aacd94840800000000000000
+      internalID: 5208937068735661192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 261
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca3fbc7a7a8ce470800000000000000
+      internalID: 8425261261586905798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 262
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd91f4454bbbaeb70800000000000000
+      internalID: 8929155594398407135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 263
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 132
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28233e934eb1a1500800000000000000
+      internalID: 367636986621801090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 264
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cda5ebf2f80c900800000000000000
+      internalID: 702718977089657947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 265
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1073a6fe3f1942700800000000000000
+      internalID: 514696734306875137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 266
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8905744011c2cbd80800000000000000
+      internalID: -8233657567142260584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 267
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fea0ad3e0a5c150800000000000000
+      internalID: 5892292587960332066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 268
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d829c00b43f5db0800000000000000
+      internalID: -4801060747023839858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 269
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c30aef4c8f152860800000000000000
+      internalID: 7504439041579418569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 270
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55c2bac050475690800000000000000
+      internalID: -7613545929304259234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 271
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cb30674ddebcaf0800000000000000
+      internalID: -374944647186498470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 272
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7384ba1cce1b66e80800000000000000
+      internalID: -8185659642279671753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 273
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e052c13235395920800000000000000
+      internalID: 2979471118181748964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 274
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1713da87c885b390800000000000000
+      internalID: -7803180388740557030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 275
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565b1c3a3164bbbe0800000000000000
+      internalID: -1460496603985889947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 276
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75e9fae1f86fd4e0800000000000000
+      internalID: -1954728325016853123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 277
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 66
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5deea5dd86800e680800000000000000
+      internalID: -8727966831360676139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 278
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eabb94211bf3f2d0800000000000000
+      internalID: -3245974855356794140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 279
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1f90ecdd5330730800000000000000
+      internalID: 3964071323776971255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 280
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d32950a24d3b2e0800000000000000
+      internalID: -2111110523359445715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 281
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377eeba6c97498110800000000000000
+      internalID: 1263619907585501043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 282
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da23c8a802bf28260800000000000000
+      internalID: 7098512079871292077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 283
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97257d3f7a12e9ac0800000000000000
+      internalID: -3846600026493595015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 284
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e22729dd245356e0800000000000000
+      internalID: -1850042466025659673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 285
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918d1854a32a0bc00800000000000000
+      internalID: 914409095514150937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 286
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275c913884485b790800000000000000
+      internalID: -7514954956225788558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 287
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4063fd55c8e8eed50800000000000000
+      internalID: 6768504023371691524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 288
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39100a4025e218dc0800000000000000
+      internalID: -3638576094138859117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 289
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b33360e7aa5f230800000000000000
+      internalID: 3672028529437129511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 290
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940b257253180e8c0800000000000000
+      internalID: -3972032806047797175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 291
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850b4718d1fc23d90800000000000000
+      internalID: -7119400335286423464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 292
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e21f27ec7eb6b970800000000000000
+      internalID: 8770406768014463714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 293
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b165d839e645370800000000000000
+      internalID: 8310388792415886184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 294
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49563ca2f51efca0800000000000000
+      internalID: -5981319123085928113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 295
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bffa15fbc21f480800000000000000
+      internalID: -8867256991094932607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 296
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5b95012d271bb00800000000000000
+      internalID: 842580851838006719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 297
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49a57efbcf789120800000000000000
+      internalID: 2420825313835854157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 298
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d47070fb7e950110800000000000000
+      internalID: 1226560728680395993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 299
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2514299df40d82890800000000000000
+      internalID: -7482501739504844462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 300
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e226d54eabd29e10800000000000000
+      internalID: 2203064709280047846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 301
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef36f428083bf8150800000000000000
+      internalID: 5877113403265213438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 302
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52e6b107bf896670800000000000000
+      internalID: 8532508985200665180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 303
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12969119af5601a20800000000000000
+      internalID: 3031034676070934817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 304
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d8d096e303d5f60800000000000000
+      internalID: 8024623155652693260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 305
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21cdc51f5eba9f10800000000000000
+      internalID: 2277341877186183466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 306
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b033d5d6d6bab3b0800000000000000
+      internalID: -5495879361425624904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 307
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a97ba1fdf15033d0800000000000000
+      internalID: -3228990781701523039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 308
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0256d5a0365e1dba0800000000000000
+      internalID: -6065815009552931552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 309
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe40ba043ce1edd0800000000000000
+      internalID: -2458424213305798919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_MC 310
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3e530faa2742a20800000000000000
+      internalID: 3036678127254627232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

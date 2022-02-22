@@ -99,8 +99,8 @@ public class Player : MonoBehaviour
 			return;
 
 		// Animator should know the direction the player is going, including diagonals
-		// Animator.SetFloat("Horizontal", moveDir.x);
-		// Animator.SetFloat("Vertical", moveDir.y);
+		Animator.SetFloat("Horizontal", moveDir.x);
+		Animator.SetFloat("Vertical", moveDir.y);
 
 		// ignore if movement is diagonal
 		if (moveDir.x != 0 && moveDir.y != 0)
@@ -126,7 +126,7 @@ public class Player : MonoBehaviour
 	// Start is called before the first frame update
 	private void Start()
 	{
-		//Animator = GetComponent<Animator>();
+		Animator = GetComponent<Animator>();
 		Rigidbody = GetComponent<Rigidbody2D>();
 
 		// Player looks down on init.
@@ -146,7 +146,7 @@ public class Player : MonoBehaviour
 		Vector3 moveDir = GetMoveDirection();
 		if (moveDir == Vector3.zero)
 		{
-			//Animator.Play("Idle");
+			Animator.Play("Idle");
 			return;
 		}
 
@@ -156,7 +156,7 @@ public class Player : MonoBehaviour
 			return;
 		}
 
-		//Animator.Play("Movement");
+		Animator.Play("Movement");
 	}
 
 
