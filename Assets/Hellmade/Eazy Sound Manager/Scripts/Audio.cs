@@ -4,6 +4,12 @@ namespace Hellmade.Sound
 {
     /// <summary>
     /// The audio object
+    /// 
+    /// !! WARNING !!
+    /// THIS SCRIPT HAS BEEN MODIFIED FROM THE ORIGINAL PACKAGE
+    /// 
+    /// Features added:
+    /// - useOneShot on Play()
     /// </summary>
     public class Audio
     {
@@ -395,16 +401,18 @@ namespace Hellmade.Sound
         /// <summary>
         /// Start playing audio clip from the beginning
         /// </summary>
-        public void Play()
+        /// <param name="useOneShot">Use Unity's PlayOneShot() function instead of Play().</param>
+        public void Play(bool useOneShot = false)
         {
-            Play(initTargetVolume);
+            Play(initTargetVolume, useOneShot);
         }
 
         /// <summary>
         /// Start playing audio clip from the beggining
         /// </summary>
         /// <param name="volume">The target volume</param>
-        public void Play(float volume)
+        /// <param name="useOneShot">Use Unity's PlayOneShot() function instead of Play().</param>
+        public void Play(float volume, bool useOneShot = false)
         {
             // Check if audio still exists in sound manager
             if (Pooled)
@@ -425,7 +433,11 @@ namespace Hellmade.Sound
                 CreateAudiosource();
             }
 
-            AudioSource.Play();
+            if (!useOneShot)
+                AudioSource.Play();
+            else
+                AudioSource.PlayOneShot(clip);
+
             IsPlaying = true;
 
             fadeInterpolater = 0f;

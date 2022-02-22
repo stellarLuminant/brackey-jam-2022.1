@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4429508252915151266}
   - component: {fileID: 4429508252915151292}
   - component: {fileID: 4429508252915151267}
-  m_Layer: 14
+  m_Layer: 9
   m_Name: Room Boundary 1x1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,6 @@ MonoBehaviour:
   FadeTime: 0.65
   fadeInColor: {r: 0, g: 0, b: 0, a: 1}
   enemySpawns: []
-  panicEnemySpawns: []
 --- !u!1001 &6665629765066487544
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ public class Boundary : MonoBehaviour
 
 	public CinemachineVirtualCamera VirtualCamera;
 	public Collider2D Collider { get; private set; }
-	
+
 	[Header("Fade Ins and Outs")]
 	public Tilemap boundaryTilemap;
 	public float FadeTime = 0.65f;
@@ -57,26 +57,26 @@ public class Boundary : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		
+
 	}
 
 	public void CheckEnemySpawns()
-    {
-        foreach (var item in enemySpawns)
-        {
+	{
+		foreach (var item in enemySpawns)
+		{
 			// If it's been destroyed, create a new one at the same position
 			if (!item.spawnedPrefab)
-            {
+			{
 				item.spawnedPrefab = Instantiate(item.prefab, item.spawnPosition, item.prefab.transform.rotation);
-            }
+			}
 		}
-    }
+	}
 
 	/// <summary>
 	/// Updates every frame for being in this boundary.
 	/// </summary>
 	public void UpdateShow()
-    {
+	{
 		// Set that to the highest priority
 		if (VirtualCamera.Priority != HighCamPriority ||
 			// Intented to trigger on first "tick"/update
@@ -84,12 +84,12 @@ public class Boundary : MonoBehaviour
 			(!firstTick && VirtualCamera.Priority == HighCamPriority))
 		{
 			firstTick = true;
-		
+
 			// Cinemachine Transistions
 			VirtualCamera.Priority = HighCamPriority;
-			
+
 			// Fade logic
-			if (fadeCoroutine != null) StopCoroutine(fadeCoroutine); else Debug.Log("routine is null");
+			if (fadeCoroutine != null) StopCoroutine(fadeCoroutine); // else Debug.Log("routine is null");
 			fadeCoroutine = StartCoroutine(FadeTilemapColor(fadeInColor));
 		}
 	}
@@ -98,9 +98,9 @@ public class Boundary : MonoBehaviour
 	/// Updates every frame for not being in this boundary.
 	/// </summary>
 	public void UpdateHide()
-    {
+	{
 		// Set that to the lower priority
-		if (VirtualCamera.Priority != LowCamPriority || 
+		if (VirtualCamera.Priority != LowCamPriority ||
 			// Intented to trigger on first "tick"/update
 			// (if needed) on the camera, so it properly hides/shows
 			(!firstTick && VirtualCamera.Priority == LowCamPriority))
@@ -113,21 +113,24 @@ public class Boundary : MonoBehaviour
 			VirtualCamera.Priority = LowCamPriority;
 
 			// Fade logic
-			if (fadeCoroutine != null) StopCoroutine(fadeCoroutine); else Debug.Log("routine is null");
+			if (fadeCoroutine != null) StopCoroutine(fadeCoroutine); // else Debug.Log("routine is null");
 			fadeCoroutine = StartCoroutine(FadeTilemapColor(fadeOutColor));
 		}
 	}
 
 	IEnumerator FadeTilemapColor(Color newColor)
 	{
-		Color currentColor = boundaryTilemap.color;
-		
-		float counter = 0;
-		while (counter < FadeTime)
+		if (boundaryTilemap)
 		{
-			counter += Time.deltaTime;
-			boundaryTilemap.color = Color.Lerp(currentColor, newColor, counter / FadeTime);
-			yield return null;
+			Color currentColor = boundaryTilemap.color;
+
+			float counter = 0;
+			while (counter < FadeTime)
+			{
+				counter += Time.deltaTime;
+				boundaryTilemap.color = Color.Lerp(currentColor, newColor, counter / FadeTime);
+				yield return null;
+			}
 		}
 	}
 }

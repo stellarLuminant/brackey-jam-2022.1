@@ -1,121 +1,108 @@
 ﻿using Hellmade.Sound;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
-/// <summary>
-/// A rough dynamic music manager
-/// </summary>
 public class MusicManager : MonoBehaviour
 {
-    public AudioClip baseMusic;
-    public AudioClip baseMusicDrums;
-    public AudioClip baseMusicDrumsFast;
-    float baseMusicLength;
-    public float musicTailLength = 5;
+    public static MusicManager Instance;
 
-    int musicSourceId;
-    int musicDrumSourceId;
-    Audio musicDrumFastSource;
-    public float transitionTime = 1.5f;
-
-    bool playDrumVariant;
-    public bool PlayDrumVariant
+    public enum MusicState { Off, Beginning, Game, End }
+    public MusicState State
     {
-        get { return playDrumVariant; }
-        set {
-            var musicAudio = EazySoundManager.GetMusicAudio(musicSourceId);
-            var musicDrumAudio = EazySoundManager.GetMusicAudio(musicDrumSourceId);
-            
-            musicAudio.SetVolume(!value ? 1 : 0);
-            musicDrumAudio.SetVolume(value ? 1 : 0);
-
-            playDrumVariant = value;
+        get { return _state; }
+        set
+        {
+            if (_state == value) return;
+            PlayMusic(value);
+            _state = value;
         }
     }
+    MusicState _state;
+
+    [FormerlySerializedAs("State")]
+    public MusicState StartingState;
+    
+    [Header("Music Clips")]
+    // The music clips and their settings.
+    public AudioClip BeginningCutsceneMusic;
+    public float BeginningCutsceneVolume = .5f;
+    public AudioClip GameMusic;
+    public float GameMusicVolume = .5f;
+    public AudioClip EndCutsceneMusic;
+    public float EndCutsceneVolume = .5f;
+
+    [Header("Scene Music Settings")]
+    // Music tail length in seconds.
+    public float MusicTailLength = 2.5f;
+    public bool StartMusicByDefault = true;
+
+    // Music source ID
+    int musicSourceId = -1;
+
+    [Header("User Music Settings")]
+    public float DefaultGlobalMusicVolume = 0.5f;
+    public float DefaultGlobalSoundsVolume = 0.5f;
+    public float DefaultGlobalUISoundsVolume = 0.5f;
+    public float DefaultGlobalVolume = 0.5f;
 
     [Header("Debug")]
-    public bool forcePlayDrumVariant = false;
+    public bool ForcePlayMusic;
+    public bool GetHellmadeSoundLevels;
 
-    // Start is called before the first frame update
-    void Start()
+    public void PlayMusic(MusicState newState)
     {
-        baseMusicLength = baseMusic.length - musicTailLength;
+        // Stops any music already playing
+        StopMusic();
 
-        StartCoroutine(PlayMusic());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (forcePlayDrumVariant)
+        switch (newState)
         {
-            Debug.Log("Forcing change on drum variant");
-            forcePlayDrumVariant = false;
-            PlayDrumVariant = !PlayDrumVariant;
+            case MusicState.Beginning:
+                StartCoroutine(PlayMusic(BeginningCutsceneMusic, BeginningCutsceneVolume));
+                break;
+            case MusicState.Game:
+                StartCoroutine(PlayMusic(GameMusic, GameMusicVolume));
+                break;
+            case MusicState.End:
+                StartCoroutine(PlayMusic(EndCutsceneMusic, EndCutsceneVolume));
+                break;
+            default:
+                Debug.LogError("wtf");
+                break;
         }
     }
-    
-    public IEnumerator PlayFastDrumsEnum()
+
+    IEnumerator PlayMusic(AudioClip clip, float volume, float fadeInSeconds = 0f, float fadeOutSeconds = 0f)
+    {
+        musicSourceId = PlayMusic(clip, volume, false, true, fadeInSeconds, fadeOutSeconds);
+
+        // Safety because I don't trust myself
+        var iterations = 0;
+        while (iterations < 100000)
+        {
+            var musicAudio = EazySoundManager.GetMusicAudio(musicSourceId);
+            Debug.Log($"Playing music clip");
+            musicAudio.Play(true);
+            yield return new WaitForSecondsRealtime(clip.length - MusicTailLength);
+
+            iterations++;
+        }
+    }
+
+    public void StopMusic(float fadeOutInSeconds = 2)
     {
         StopAllCoroutines();
-
-        int id = EazySoundManager.PlayMusic(baseMusicDrumsFast, 1, false, false, 0, 3, 0.2f, null);
-        musicDrumFastSource = EazySoundManager.GetAudio(id);
-
-        // SAFETY
-        var iterations = 0;
-        while (iterations < 1000)
+        var audio = EazySoundManager.GetMusicAudio(musicSourceId);
+        if (audio != null)
         {
-            yield return new WaitForSecondsRealtime(baseMusicDrumsFast.length - musicTailLength);
-            musicDrumFastSource.Play();
-            iterations++;
+            audio.FadeInSeconds = fadeOutInSeconds;
+            audio.FadeOutSeconds = fadeOutInSeconds;
+            audio.Stop();
         }
     }
 
-    /// <summary>
-    /// Loops through 
-    /// </summary>
-    /// <returns></returns>
-    IEnumerator PlayMusic()
-    {
-        // Initial play music
-        musicSourceId = PlayMusic(baseMusic, GetVolume(false), false, false, transitionTime, transitionTime);
-        musicDrumSourceId = PlayMusic(baseMusicDrums, GetVolume(true), false, false, transitionTime, transitionTime);
-
-        // SAFETY
-        var iterations = 0;
-        while (iterations < 1000)
-        {
-            StartCoroutine(PlayAmbience());
-            yield return PlayAmbienceDrums();
-            iterations++;
-        }
-    }
-
-    int GetVolume(bool isDrums)
-    {
-        if (isDrums)
-            return playDrumVariant ? 1 : 0;
-        else
-            return !playDrumVariant ? 1 : 0;
-    }
-
-    IEnumerator PlayAmbience()
-    {
-        var musicAudio = EazySoundManager.GetMusicAudio(musicSourceId);
-        musicAudio.Play(GetVolume(false));
-        yield return new WaitForSecondsRealtime(baseMusicLength);
-    }
-
-    IEnumerator PlayAmbienceDrums()
-    {
-        var musicDrumAudio = EazySoundManager.GetMusicAudio(musicDrumSourceId);
-        musicDrumAudio.Play(GetVolume(true));
-        yield return new WaitForSecondsRealtime(baseMusicLength);
-    }
-
-
+    #region Re-implementation of EazySoundManager
     /// <summary>
     /// Play background music
     /// </summary>
@@ -131,22 +118,83 @@ public class MusicManager : MonoBehaviour
         return PlayAudio(Audio.AudioType.Music, clip, volume, loop, persist, fadeInSeconds, fadeOutSeconds, -1f, null);
     }
 
-
     private static int PlayAudio(
-        Audio.AudioType audioType, 
-        AudioClip clip, 
+        Audio.AudioType audioType,
+        AudioClip clip,
         float volume,
-        bool loop, 
-        bool persist, 
-        float fadeInSeconds, 
-        float fadeOutSeconds, 
-        float currentMusicfadeOutSeconds, 
+        bool loop,
+        bool persist,
+        float fadeInSeconds,
+        float fadeOutSeconds,
+        float currentMusicfadeOutSeconds,
         Transform sourceTransform)
     {
         int audioID = EazySoundManager.PrepareAudio(audioType, clip, volume, loop, persist, fadeInSeconds, fadeOutSeconds, currentMusicfadeOutSeconds, sourceTransform);
 
-        EazySoundManager.GetAudio(audioType, false, audioID).Play();
+        EazySoundManager.GetAudio(audioType, false, audioID).Play(true);
 
         return audioID;
+    }
+    #endregion
+
+    #region Unity events
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    // Singleton pattern
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+
+        DontDestroyOnLoad(this);
+    }
+
+    // Start is called before the first frame update
+    private void Start()
+    {
+        if (StartMusicByDefault)
+        {
+            PlayMusic(StartingState);
+        }
+
+        EazySoundManager.GlobalMusicVolume = DefaultGlobalMusicVolume;
+        EazySoundManager.GlobalSoundsVolume = DefaultGlobalSoundsVolume;
+        EazySoundManager.GlobalUISoundsVolume = DefaultGlobalUISoundsVolume;
+        EazySoundManager.GlobalVolume = DefaultGlobalVolume;
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        if (ForcePlayMusic)
+        {
+            ForcePlayMusic = false;
+            PlayMusic(StartingState);
+        }
+
+        if (GetHellmadeSoundLevels)
+        {
+            GetHellmadeSoundLevels = false;
+            Debug.Log($"music: {EazySoundManager.GlobalMusicVolume}");
+            Debug.Log($"sound: {EazySoundManager.GlobalSoundsVolume}");
+            Debug.Log($"ui: {EazySoundManager.GlobalUISoundsVolume}");
+            Debug.Log($"global: {EazySoundManager.GlobalVolume}");
+        }
+    }
+    #endregion
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        
     }
 }
