@@ -17,8 +17,11 @@ public class PlayerSounds : MonoBehaviour
 	public LayerMask GroundMask;
 	public float PillowSqueakMultiplier = 0.25f;
 
+	private Player _player;
 	private int _squeakAlternatingIndex = 0;
 	private int _alternatingIndex = 0;
+
+	private bool _disableDiagonalFootstepRetrigger;
 
 	[Header("Game Objects")]
 	public GameObject PillowTilemap;
@@ -38,6 +41,9 @@ public class PlayerSounds : MonoBehaviour
 
 	private void Start()
 	{
+		_player = GetComponent<Player>();
+
+		Debug.Assert(_player != null, "PlayerSounds couldn't find Player component");
 		Debug.Assert(CobbleTilemap != null, "All tilemaps must be filled in inspector");
 		Debug.Assert(BridgeTilemap != null, "All tilemaps must be filled in inspector");
 		Debug.Assert(PillowTilemap != null, "All tilemaps must be filled in inspector");
@@ -55,6 +61,22 @@ public class PlayerSounds : MonoBehaviour
 
 	public void DoWalkSound()
 	{
+		// By walking diagonally, even though only one animation
+        // shows, DoWalkSound() will be triggered twice.
+		// To compensate, _disableDiagonalFootstepRetrigger is used.
+		if (_disableDiagonalFootstepRetrigger)
+		{
+			_disableDiagonalFootstepRetrigger = false;
+			return;
+		}
+
+		// Are we going diagonally?
+		Vector3 a = _player.GetMoveDirection();
+		if (Mathf.Abs(a.x) > 0 && Mathf.Abs(a.y) > 0)
+		{
+			_disableDiagonalFootstepRetrigger = true;
+		}
+
 		AudioStepClip[] stepClips = PillowAudioStep;
 		var hitColliders = Physics2D.OverlapCircleAll(_feet.transform.position, 1, GroundMask);
 		if (hitColliders.Length > 0)

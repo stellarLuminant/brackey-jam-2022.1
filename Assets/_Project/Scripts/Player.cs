@@ -78,7 +78,7 @@ public class Player : MonoBehaviour
 		return Vector3.zero;
 	}
 
-	private Vector3 GetMoveDirection()
+	public Vector3 GetMoveDirection()
 	{
 		Vector3 direction = GetVerticalMoveDirection() + GetHorizontalMoveDirection();
 

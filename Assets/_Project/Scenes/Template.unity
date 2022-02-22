@@ -3915,14 +3915,6 @@ PrefabInstance:
       propertyPath: CobbleTilemap
       value: 
       objectReference: {fileID: 1024531445}
-    - target: {fileID: 1492432768, guid: 30fdcb3f56338d04e86803600fa920a6, type: 3}
-      propertyPath: PillowTilemap
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1492432768, guid: 30fdcb3f56338d04e86803600fa920a6, type: 3}
-      propertyPath: GroundMask.m_Bits
-      value: 8192
-      objectReference: {fileID: 0}
     - target: {fileID: 6491375761710819267, guid: 30fdcb3f56338d04e86803600fa920a6,
         type: 3}
       propertyPath: m_Name
@@ -3963,6 +3955,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6491375761710819270, guid: 30fdcb3f56338d04e86803600fa920a6,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6491375761710819270, guid: 30fdcb3f56338d04e86803600fa920a6,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 6491375761710819270, guid: 30fdcb3f56338d04e86803600fa920a6,
         type: 3}

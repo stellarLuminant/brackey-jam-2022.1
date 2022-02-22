@@ -292,7 +292,7 @@ MonoBehaviour:
   _feet: {fileID: 883910744}
   GroundMask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 8192
   PillowSqueakMultiplier: 0
   PillowTilemap: {fileID: 0}
   BridgeTilemap: {fileID: 0}
@@ -316,13 +316,18 @@ MonoBehaviour:
     volumeVariation: 0.1
     pitchVariation: 0.1
   BridgeAudioStep:
-  - stepClip: {fileID: 8300000, guid: a0a01b20029c0504d91c754c0388c05f, type: 3}
+  - stepClip: {fileID: 8300000, guid: 2b3b29ee333544c4fa2ce386c596939a, type: 3}
+    volume: 0.5
+    volumeVariation: 0.1
+    pitchVariation: 0.1
+  - stepClip: {fileID: 8300000, guid: b24ab5181fd9e954aaf7eef301189168, type: 3}
+    volume: 0.5
+    volumeVariation: 0.1
+    pitchVariation: 0.1
+  CobbleAudioStep:
+  - stepClip: {fileID: 8300000, guid: d4458af4b2bf6d9419e6f31f19d64744, type: 3}
     volume: 0
     volumeVariation: 0
     pitchVariation: 0
-  CobbleAudioStep:
-  - stepClip: {fileID: 8300000, guid: d4458af4b2bf6d9419e6f31f19d64744, type: 3}
-    volume: 1
-    volumeVariation: 0
-    pitchVariation: 0
+  UseDoubleSqueak: 0
   MakeStepSound: 0
