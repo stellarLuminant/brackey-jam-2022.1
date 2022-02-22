@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a828d00fc68c44f8df176ce0f71507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 150
+  MoveSpeed: 140
   LookDirection: {x: 0, y: 0, z: 0}
   Input_MoveUp: 11010000
   Input_MoveDown: 12010000
@@ -294,6 +294,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   PillowSqueakMultiplier: 0
+  PillowTilemap: {fileID: 0}
+  BridgeTilemap: {fileID: 0}
+  CobbleTilemap: {fileID: 0}
   SqueakAudioStep:
   - stepClip: {fileID: 8300000, guid: d41db8c1eeb342143b9a2bde9091de04, type: 3}
     volume: 0.25
