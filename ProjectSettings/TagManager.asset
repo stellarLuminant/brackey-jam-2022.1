@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
+  - Obstacle
   - Player
-  - LevelBounds
-  - Ground
-  - 
-  - 
+  - Enemy
+  - PlayerAttack
+  - EnemyAttack
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 3733490125
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

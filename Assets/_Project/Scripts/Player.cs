@@ -12,12 +12,6 @@ public class Player : MonoBehaviour
 	// Tiles per second.
 	public Single MoveSpeed = 1;
 
-	// Seconds after a successful interact before it can be used again.
-	public Single SuccessfulInteractCooldown = 1;
-
-	// FixedTime when the player is able to interact again.
-	public Single TimeToNextInteract;
-
 	// The current direction the character is looking at.
 	public Vector3 LookDirection;
 
@@ -26,12 +20,6 @@ public class Player : MonoBehaviour
 	public KeyCode[] Input_MoveDown = { KeyCode.DownArrow };
 	public KeyCode[] Input_MoveLeft = { KeyCode.LeftArrow };
 	public KeyCode[] Input_MoveRight = { KeyCode.RightArrow };
-	public KeyCode[] Input_Interact = { KeyCode.Z, KeyCode.Space };
-	public KeyCode[] Input_Restart = { KeyCode.R };
-	public KeyCode[] Input_I_Give_Up = { KeyCode.End };
-
-	// The transform of the interaction cursor.
-	// public Transform InteractCursor;
 
 	private Rigidbody2D Rigidbody;
 
@@ -39,10 +27,6 @@ public class Player : MonoBehaviour
 
 	// The position the player was last frame.
 	private Vector2 OldPosition;
-
-	public bool IsInTutorial;
-
-	public bool CanMove = true;
 
 	#endregion State
 
@@ -57,10 +41,6 @@ public class Player : MonoBehaviour
 	private bool IsMovingLeft => Utils.CheckInputsHeld(Input_MoveLeft);
 
 	private bool IsMovingRight => Utils.CheckInputsHeld(Input_MoveRight);
-
-	private bool IsInteracting => Utils.CheckInputsPressed(Input_Interact);
-
-	private bool IsRestarting => Utils.CheckInputsPressed(Input_Restart);
 
 	private Vector3 GetVerticalMoveDirection()
 	{
@@ -102,8 +82,6 @@ public class Player : MonoBehaviour
 	{
 		Vector3 direction = GetVerticalMoveDirection() + GetHorizontalMoveDirection();
 
-		if (!CanMove) return Vector3.zero;
-
 		return direction == Vector3.zero
 			? Vector3.zero
 			: Vector3.Normalize(direction);
@@ -129,13 +107,7 @@ public class Player : MonoBehaviour
 			return;
 
 		LookDirection = moveDir;
-		// InteractCursor.position = GetInteractCursorPosition();
 	}
-
-	// private Interactable CheckInteractable(Vector3 pos)
-	// {
-	//     return Utils.CastForObjectOnTile(pos)?.GetComponent<Interactable>();
-	// }
 
 	private bool IsApproximately(Vector2 a, Vector2 b, float range = 0.001f)
 	{
@@ -154,7 +126,7 @@ public class Player : MonoBehaviour
 	// Start is called before the first frame update
 	private void Start()
 	{
-		Animator = GetComponent<Animator>();
+		//Animator = GetComponent<Animator>();
 		Rigidbody = GetComponent<Rigidbody2D>();
 
 		// Player looks down on init.
@@ -174,57 +146,19 @@ public class Player : MonoBehaviour
 		Vector3 moveDir = GetMoveDirection();
 		if (moveDir == Vector3.zero)
 		{
-			Animator.Play("Idle");
+			//Animator.Play("Idle");
 			return;
 		}
 
 		if (IsApproximately(OldPosition, Rigidbody.position))
 		{
-			Animator.Play("Push");
+			//Animator.Play("Push");
 			return;
 		}
 
-		Animator.Play("Movement");
-
-		if (IsInTutorial)
-		{
-			Tutorial.CompletedMovement = true;
-		}
+		//Animator.Play("Movement");
 	}
 
-	private void UpdateInteraction(Single time)
-	{
-		if (!CanMove)
-			return;
-
-		if (time < TimeToNextInteract)
-			return;
-
-		if (!IsInteracting)
-			return;
-
-		// if (CheckInteractable(GetInteractCursorPosition())?.Interact(LookDirection) == true)
-		//     TimeToNextInteract = time + SuccessfulInteractCooldown;
-	}
-
-	private void UpdateOtherKeys()
-	{
-		if (!CanMove)
-			return;
-
-		// if (IsRestarting)
-		// {
-		//     var uIManager = UIManager.Instance;
-		//     var fadeManager = uIManager.FadeManager;
-		//     fadeManager.FadeIn(uIManager.StartFadeTime, Color.black);
-		//     SceneManager.LoadScene(GameManager.LevelScenes[GameManager.CurrentLevel]);
-		// }
-
-		// if (Utils.CheckInputsPressed(Input_I_Give_Up))
-		// {
-		//     FindObjectOfType<Door>().LoadNewLevel(this);
-		// }
-	}
 
 	// FixedUpdate is called once per physics update
 	private void FixedUpdate()
@@ -236,8 +170,6 @@ public class Player : MonoBehaviour
 	private void Update()
 	{
 		UpdateAnimation();
-		UpdateInteraction(Time.time);
-		UpdateOtherKeys();
 	}
 
 	#endregion Unity Behaviour

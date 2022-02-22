@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public static class Utils
@@ -8,6 +6,14 @@ public static class Utils
     public static Vector3 ToGridPosition(Vector3 pos)
     {
         return new Vector3(Mathf.Round(pos.x), Mathf.Round(pos.y), pos.z);
+    }
+
+    public static Vector2 To2D(Vector3 v) {
+        return new Vector2(v.x, v.y);
+    }
+
+    public static Vector2 NormalizeAtMagnitude(Vector2 v, float magnitude) {
+        return v.normalized * magnitude;
     }
 
     public static bool CheckInputsHeld(KeyCode[] keys)

@@ -1,12 +1,10 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public GameObject playerInputObject;
 
     public enum GameState
     {
@@ -56,20 +54,20 @@ public class GameManager : MonoBehaviour
     // Called first
     void OnEnable()
     {
-        Debug.Log("OnEnable called");
+        Debug.Log("GameManager.OnEnable()");
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     // Called second
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log($"OnSceneLoaded: {scene.name} | mode {mode}");
+        Debug.Log($"GameManager.OnSceneLoaded(Scene \"{scene.name}\", LoadSceneMode {mode})");
     }
 
     // Called when the game is terminated
     void OnDisable()
     {
-        Debug.Log("OnDisable");
+        Debug.Log("GameManager.OnDisable()");
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
