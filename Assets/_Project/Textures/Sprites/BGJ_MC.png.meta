@@ -3720,7 +3720,7 @@ TextureImporter:
       name: BGJ_MC 129
       rect:
         serializedVersion: 2
-        x: 858
+        x: 390
         y: 462
         width: 78
         height: 66
@@ -3804,7 +3804,7 @@ TextureImporter:
       name: BGJ_MC 133
       rect:
         serializedVersion: 2
-        x: 702
+        x: 858
         y: 462
         width: 78
         height: 66
@@ -3825,7 +3825,7 @@ TextureImporter:
       name: BGJ_MC 134
       rect:
         serializedVersion: 2
-        x: 936
+        x: 780
         y: 462
         width: 78
         height: 66
@@ -3846,7 +3846,7 @@ TextureImporter:
       name: BGJ_MC 135
       rect:
         serializedVersion: 2
-        x: 858
+        x: 0
         y: 462
         width: 78
         height: 66
@@ -3951,7 +3951,7 @@ TextureImporter:
       name: BGJ_MC 140
       rect:
         serializedVersion: 2
-        x: 390
+        x: 936
         y: 462
         width: 78
         height: 66
@@ -3972,7 +3972,7 @@ TextureImporter:
       name: BGJ_MC 141
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1014
         y: 462
         width: 78
         height: 66
@@ -3993,8 +3993,8 @@ TextureImporter:
       name: BGJ_MC 142
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 462
+        x: 0
+        y: 396
         width: 78
         height: 66
       alignment: 0
@@ -4014,7 +4014,7 @@ TextureImporter:
       name: BGJ_MC 143
       rect:
         serializedVersion: 2
-        x: 0
+        x: 78
         y: 396
         width: 78
         height: 66
@@ -4035,7 +4035,7 @@ TextureImporter:
       name: BGJ_MC 144
       rect:
         serializedVersion: 2
-        x: 78
+        x: 156
         y: 396
         width: 78
         height: 66
@@ -4056,7 +4056,7 @@ TextureImporter:
       name: BGJ_MC 145
       rect:
         serializedVersion: 2
-        x: 156
+        x: 234
         y: 396
         width: 78
         height: 66
@@ -4077,7 +4077,7 @@ TextureImporter:
       name: BGJ_MC 146
       rect:
         serializedVersion: 2
-        x: 234
+        x: 312
         y: 396
         width: 78
         height: 66
@@ -4098,7 +4098,7 @@ TextureImporter:
       name: BGJ_MC 147
       rect:
         serializedVersion: 2
-        x: 312
+        x: 390
         y: 396
         width: 78
         height: 66
@@ -4119,7 +4119,7 @@ TextureImporter:
       name: BGJ_MC 148
       rect:
         serializedVersion: 2
-        x: 390
+        x: 468
         y: 396
         width: 78
         height: 66
@@ -4140,7 +4140,7 @@ TextureImporter:
       name: BGJ_MC 149
       rect:
         serializedVersion: 2
-        x: 468
+        x: 546
         y: 396
         width: 78
         height: 66
@@ -4161,7 +4161,7 @@ TextureImporter:
       name: BGJ_MC 150
       rect:
         serializedVersion: 2
-        x: 546
+        x: 624
         y: 396
         width: 78
         height: 66
@@ -4182,7 +4182,7 @@ TextureImporter:
       name: BGJ_MC 151
       rect:
         serializedVersion: 2
-        x: 624
+        x: 702
         y: 396
         width: 78
         height: 66
@@ -4203,7 +4203,7 @@ TextureImporter:
       name: BGJ_MC 152
       rect:
         serializedVersion: 2
-        x: 702
+        x: 312
         y: 396
         width: 78
         height: 66
@@ -4224,7 +4224,7 @@ TextureImporter:
       name: BGJ_MC 153
       rect:
         serializedVersion: 2
-        x: 780
+        x: 390
         y: 396
         width: 78
         height: 66
@@ -4245,7 +4245,7 @@ TextureImporter:
       name: BGJ_MC 154
       rect:
         serializedVersion: 2
-        x: 390
+        x: 468
         y: 396
         width: 78
         height: 66
@@ -4266,7 +4266,7 @@ TextureImporter:
       name: BGJ_MC 155
       rect:
         serializedVersion: 2
-        x: 468
+        x: 546
         y: 396
         width: 78
         height: 66
@@ -4287,7 +4287,7 @@ TextureImporter:
       name: BGJ_MC 156
       rect:
         serializedVersion: 2
-        x: 546
+        x: 624
         y: 396
         width: 78
         height: 66
@@ -4308,7 +4308,7 @@ TextureImporter:
       name: BGJ_MC 157
       rect:
         serializedVersion: 2
-        x: 624
+        x: 702
         y: 396
         width: 78
         height: 66
@@ -4329,7 +4329,7 @@ TextureImporter:
       name: BGJ_MC 158
       rect:
         serializedVersion: 2
-        x: 702
+        x: 312
         y: 396
         width: 78
         height: 66
@@ -4350,7 +4350,7 @@ TextureImporter:
       name: BGJ_MC 159
       rect:
         serializedVersion: 2
-        x: 780
+        x: 390
         y: 396
         width: 78
         height: 66
@@ -4371,7 +4371,7 @@ TextureImporter:
       name: BGJ_MC 160
       rect:
         serializedVersion: 2
-        x: 390
+        x: 468
         y: 396
         width: 78
         height: 66
@@ -4392,7 +4392,7 @@ TextureImporter:
       name: BGJ_MC 161
       rect:
         serializedVersion: 2
-        x: 468
+        x: 156
         y: 396
         width: 78
         height: 66
@@ -4413,7 +4413,7 @@ TextureImporter:
       name: BGJ_MC 162
       rect:
         serializedVersion: 2
-        x: 546
+        x: 234
         y: 396
         width: 78
         height: 66
@@ -4434,7 +4434,7 @@ TextureImporter:
       name: BGJ_MC 163
       rect:
         serializedVersion: 2
-        x: 234
+        x: 780
         y: 396
         width: 78
         height: 66
@@ -4455,7 +4455,7 @@ TextureImporter:
       name: BGJ_MC 164
       rect:
         serializedVersion: 2
-        x: 312
+        x: 858
         y: 396
         width: 78
         height: 66
@@ -4476,8 +4476,8 @@ TextureImporter:
       name: BGJ_MC 165
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 462
+        x: 936
+        y: 396
         width: 78
         height: 66
       alignment: 0
@@ -4497,7 +4497,7 @@ TextureImporter:
       name: BGJ_MC 166
       rect:
         serializedVersion: 2
-        x: 858
+        x: 1014
         y: 396
         width: 78
         height: 66
@@ -4518,8 +4518,8 @@ TextureImporter:
       name: BGJ_MC 167
       rect:
         serializedVersion: 2
-        x: 936
-        y: 396
+        x: 0
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -4539,8 +4539,8 @@ TextureImporter:
       name: BGJ_MC 168
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 396
+        x: 78
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -4560,7 +4560,7 @@ TextureImporter:
       name: BGJ_MC 169
       rect:
         serializedVersion: 2
-        x: 0
+        x: 156
         y: 330
         width: 78
         height: 66
@@ -4581,7 +4581,7 @@ TextureImporter:
       name: BGJ_MC 170
       rect:
         serializedVersion: 2
-        x: 78
+        x: 234
         y: 330
         width: 78
         height: 66
@@ -4602,8 +4602,8 @@ TextureImporter:
       name: BGJ_MC 171
       rect:
         serializedVersion: 2
-        x: 156
-        y: 330
+        x: 1014
+        y: 396
         width: 78
         height: 66
       alignment: 0
@@ -4623,7 +4623,7 @@ TextureImporter:
       name: BGJ_MC 172
       rect:
         serializedVersion: 2
-        x: 234
+        x: 312
         y: 330
         width: 78
         height: 66
@@ -4644,7 +4644,7 @@ TextureImporter:
       name: BGJ_MC 173
       rect:
         serializedVersion: 2
-        x: 312
+        x: 390
         y: 330
         width: 78
         height: 66
@@ -4665,7 +4665,7 @@ TextureImporter:
       name: BGJ_MC 174
       rect:
         serializedVersion: 2
-        x: 0
+        x: 468
         y: 330
         width: 78
         height: 66
@@ -4686,7 +4686,7 @@ TextureImporter:
       name: BGJ_MC 175
       rect:
         serializedVersion: 2
-        x: 390
+        x: 156
         y: 330
         width: 78
         height: 66
@@ -4707,7 +4707,7 @@ TextureImporter:
       name: BGJ_MC 176
       rect:
         serializedVersion: 2
-        x: 468
+        x: 234
         y: 330
         width: 78
         height: 66
@@ -4728,8 +4728,8 @@ TextureImporter:
       name: BGJ_MC 177
       rect:
         serializedVersion: 2
-        x: 546
-        y: 330
+        x: 1014
+        y: 396
         width: 78
         height: 66
       alignment: 0
@@ -4749,7 +4749,7 @@ TextureImporter:
       name: BGJ_MC 178
       rect:
         serializedVersion: 2
-        x: 234
+        x: 312
         y: 330
         width: 78
         height: 66
@@ -4770,7 +4770,7 @@ TextureImporter:
       name: BGJ_MC 179
       rect:
         serializedVersion: 2
-        x: 312
+        x: 390
         y: 330
         width: 78
         height: 66
@@ -4791,7 +4791,7 @@ TextureImporter:
       name: BGJ_MC 180
       rect:
         serializedVersion: 2
-        x: 0
+        x: 468
         y: 330
         width: 78
         height: 66
@@ -4812,8 +4812,8 @@ TextureImporter:
       name: BGJ_MC 181
       rect:
         serializedVersion: 2
-        x: 390
-        y: 330
+        x: 858
+        y: 396
         width: 78
         height: 66
       alignment: 0
@@ -4833,8 +4833,8 @@ TextureImporter:
       name: BGJ_MC 182
       rect:
         serializedVersion: 2
-        x: 468
-        y: 330
+        x: 936
+        y: 396
         width: 78
         height: 66
       alignment: 0
@@ -4854,8 +4854,8 @@ TextureImporter:
       name: BGJ_MC 183
       rect:
         serializedVersion: 2
-        x: 546
-        y: 330
+        x: 1014
+        y: 396
         width: 78
         height: 66
       alignment: 0
@@ -4875,8 +4875,8 @@ TextureImporter:
       name: BGJ_MC 184
       rect:
         serializedVersion: 2
-        x: 936
-        y: 396
+        x: 0
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -4896,8 +4896,8 @@ TextureImporter:
       name: BGJ_MC 185
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 396
+        x: 78
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -4917,7 +4917,7 @@ TextureImporter:
       name: BGJ_MC 186
       rect:
         serializedVersion: 2
-        x: 0
+        x: 546
         y: 330
         width: 78
         height: 66
@@ -4938,7 +4938,7 @@ TextureImporter:
       name: BGJ_MC 187
       rect:
         serializedVersion: 2
-        x: 78
+        x: 624
         y: 330
         width: 78
         height: 66
@@ -4959,7 +4959,7 @@ TextureImporter:
       name: BGJ_MC 188
       rect:
         serializedVersion: 2
-        x: 156
+        x: 702
         y: 330
         width: 78
         height: 66
@@ -4980,8 +4980,8 @@ TextureImporter:
       name: BGJ_MC 189
       rect:
         serializedVersion: 2
-        x: 858
-        y: 396
+        x: 780
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5001,7 +5001,7 @@ TextureImporter:
       name: BGJ_MC 190
       rect:
         serializedVersion: 2
-        x: 624
+        x: 858
         y: 330
         width: 78
         height: 66
@@ -5022,7 +5022,7 @@ TextureImporter:
       name: BGJ_MC 191
       rect:
         serializedVersion: 2
-        x: 702
+        x: 936
         y: 330
         width: 78
         height: 66
@@ -5043,7 +5043,7 @@ TextureImporter:
       name: BGJ_MC 192
       rect:
         serializedVersion: 2
-        x: 780
+        x: 624
         y: 330
         width: 78
         height: 66
@@ -5064,7 +5064,7 @@ TextureImporter:
       name: BGJ_MC 193
       rect:
         serializedVersion: 2
-        x: 858
+        x: 702
         y: 330
         width: 78
         height: 66
@@ -5085,7 +5085,7 @@ TextureImporter:
       name: BGJ_MC 194
       rect:
         serializedVersion: 2
-        x: 936
+        x: 1014
         y: 330
         width: 78
         height: 66
@@ -5106,8 +5106,8 @@ TextureImporter:
       name: BGJ_MC 195
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 330
+        x: 0
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5127,8 +5127,8 @@ TextureImporter:
       name: BGJ_MC 196
       rect:
         serializedVersion: 2
-        x: 702
-        y: 330
+        x: 78
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5148,8 +5148,8 @@ TextureImporter:
       name: BGJ_MC 197
       rect:
         serializedVersion: 2
-        x: 780
-        y: 330
+        x: 156
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5169,8 +5169,8 @@ TextureImporter:
       name: BGJ_MC 198
       rect:
         serializedVersion: 2
-        x: 0
-        y: 264
+        x: 624
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5190,8 +5190,8 @@ TextureImporter:
       name: BGJ_MC 199
       rect:
         serializedVersion: 2
-        x: 78
-        y: 264
+        x: 702
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5211,8 +5211,8 @@ TextureImporter:
       name: BGJ_MC 200
       rect:
         serializedVersion: 2
-        x: 156
-        y: 264
+        x: 1014
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5232,7 +5232,7 @@ TextureImporter:
       name: BGJ_MC 201
       rect:
         serializedVersion: 2
-        x: 234
+        x: 0
         y: 264
         width: 78
         height: 66
@@ -5253,8 +5253,8 @@ TextureImporter:
       name: BGJ_MC 202
       rect:
         serializedVersion: 2
-        x: 702
-        y: 330
+        x: 78
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5274,8 +5274,8 @@ TextureImporter:
       name: BGJ_MC 203
       rect:
         serializedVersion: 2
-        x: 780
-        y: 330
+        x: 156
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5295,8 +5295,8 @@ TextureImporter:
       name: BGJ_MC 204
       rect:
         serializedVersion: 2
-        x: 0
-        y: 264
+        x: 624
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5316,8 +5316,8 @@ TextureImporter:
       name: BGJ_MC 205
       rect:
         serializedVersion: 2
-        x: 78
-        y: 264
+        x: 702
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5337,8 +5337,8 @@ TextureImporter:
       name: BGJ_MC 206
       rect:
         serializedVersion: 2
-        x: 156
-        y: 264
+        x: 1014
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5358,8 +5358,8 @@ TextureImporter:
       name: BGJ_MC 207
       rect:
         serializedVersion: 2
-        x: 234
-        y: 264
+        x: 858
+        y: 330
         width: 78
         height: 66
       alignment: 0
@@ -5379,7 +5379,7 @@ TextureImporter:
       name: BGJ_MC 208
       rect:
         serializedVersion: 2
-        x: 702
+        x: 936
         y: 330
         width: 78
         height: 66
@@ -5400,8 +5400,8 @@ TextureImporter:
       name: BGJ_MC 209
       rect:
         serializedVersion: 2
-        x: 780
-        y: 330
+        x: 234
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5421,7 +5421,7 @@ TextureImporter:
       name: BGJ_MC 210
       rect:
         serializedVersion: 2
-        x: 0
+        x: 312
         y: 264
         width: 78
         height: 66
@@ -5442,8 +5442,8 @@ TextureImporter:
       name: BGJ_MC 211
       rect:
         serializedVersion: 2
-        x: 936
-        y: 330
+        x: 390
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5463,8 +5463,8 @@ TextureImporter:
       name: BGJ_MC 212
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 330
+        x: 312
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5484,7 +5484,7 @@ TextureImporter:
       name: BGJ_MC 213
       rect:
         serializedVersion: 2
-        x: 312
+        x: 390
         y: 264
         width: 78
         height: 66
@@ -5505,7 +5505,7 @@ TextureImporter:
       name: BGJ_MC 214
       rect:
         serializedVersion: 2
-        x: 390
+        x: 312
         y: 264
         width: 78
         height: 66
@@ -5526,7 +5526,7 @@ TextureImporter:
       name: BGJ_MC 215
       rect:
         serializedVersion: 2
-        x: 468
+        x: 390
         y: 264
         width: 78
         height: 66
@@ -5547,8 +5547,8 @@ TextureImporter:
       name: BGJ_MC 216
       rect:
         serializedVersion: 2
-        x: 390
-        y: 264
+        x: 0
+        y: 792
         width: 78
         height: 66
       alignment: 0
@@ -5589,7 +5589,7 @@ TextureImporter:
       name: BGJ_MC 218
       rect:
         serializedVersion: 2
-        x: 390
+        x: 546
         y: 264
         width: 78
         height: 66
@@ -5610,7 +5610,7 @@ TextureImporter:
       name: BGJ_MC 219
       rect:
         serializedVersion: 2
-        x: 468
+        x: 624
         y: 264
         width: 78
         height: 66
@@ -5631,8 +5631,8 @@ TextureImporter:
       name: BGJ_MC 220
       rect:
         serializedVersion: 2
-        x: 0
-        y: 792
+        x: 702
+        y: 264
         width: 78
         height: 66
       alignment: 0
@@ -5652,7 +5652,7 @@ TextureImporter:
       name: BGJ_MC 221
       rect:
         serializedVersion: 2
-        x: 546
+        x: 468
         y: 264
         width: 78
         height: 66
@@ -5673,7 +5673,7 @@ TextureImporter:
       name: BGJ_MC 222
       rect:
         serializedVersion: 2
-        x: 624
+        x: 546
         y: 264
         width: 78
         height: 66
@@ -5694,7 +5694,7 @@ TextureImporter:
       name: BGJ_MC 223
       rect:
         serializedVersion: 2
-        x: 702
+        x: 624
         y: 264
         width: 78
         height: 66
@@ -5715,7 +5715,7 @@ TextureImporter:
       name: BGJ_MC 224
       rect:
         serializedVersion: 2
-        x: 780
+        x: 702
         y: 264
         width: 78
         height: 66
@@ -5736,7 +5736,7 @@ TextureImporter:
       name: BGJ_MC 225
       rect:
         serializedVersion: 2
-        x: 546
+        x: 468
         y: 264
         width: 78
         height: 66
@@ -5757,7 +5757,7 @@ TextureImporter:
       name: BGJ_MC 226
       rect:
         serializedVersion: 2
-        x: 624
+        x: 546
         y: 264
         width: 78
         height: 66
@@ -5778,7 +5778,7 @@ TextureImporter:
       name: BGJ_MC 227
       rect:
         serializedVersion: 2
-        x: 702
+        x: 624
         y: 264
         width: 78
         height: 66
@@ -5799,7 +5799,7 @@ TextureImporter:
       name: BGJ_MC 228
       rect:
         serializedVersion: 2
-        x: 780
+        x: 702
         y: 264
         width: 78
         height: 66
@@ -5820,7 +5820,7 @@ TextureImporter:
       name: BGJ_MC 229
       rect:
         serializedVersion: 2
-        x: 546
+        x: 780
         y: 264
         width: 78
         height: 66
@@ -5841,7 +5841,7 @@ TextureImporter:
       name: BGJ_MC 230
       rect:
         serializedVersion: 2
-        x: 624
+        x: 858
         y: 264
         width: 78
         height: 66
@@ -5862,7 +5862,7 @@ TextureImporter:
       name: BGJ_MC 231
       rect:
         serializedVersion: 2
-        x: 702
+        x: 936
         y: 264
         width: 78
         height: 66
@@ -5883,7 +5883,7 @@ TextureImporter:
       name: BGJ_MC 232
       rect:
         serializedVersion: 2
-        x: 780
+        x: 1014
         y: 264
         width: 78
         height: 66
@@ -5904,8 +5904,8 @@ TextureImporter:
       name: BGJ_MC 233
       rect:
         serializedVersion: 2
-        x: 858
-        y: 264
+        x: 0
+        y: 198
         width: 78
         height: 66
       alignment: 0
@@ -5925,8 +5925,8 @@ TextureImporter:
       name: BGJ_MC 234
       rect:
         serializedVersion: 2
-        x: 936
-        y: 264
+        x: 78
+        y: 198
         width: 78
         height: 66
       alignment: 0
@@ -5946,8 +5946,8 @@ TextureImporter:
       name: BGJ_MC 235
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 264
+        x: 156
+        y: 198
         width: 78
         height: 66
       alignment: 0
@@ -5967,7 +5967,7 @@ TextureImporter:
       name: BGJ_MC 236
       rect:
         serializedVersion: 2
-        x: 0
+        x: 234
         y: 198
         width: 78
         height: 66
@@ -5988,7 +5988,7 @@ TextureImporter:
       name: BGJ_MC 237
       rect:
         serializedVersion: 2
-        x: 78
+        x: 312
         y: 198
         width: 78
         height: 66
@@ -6009,7 +6009,7 @@ TextureImporter:
       name: BGJ_MC 238
       rect:
         serializedVersion: 2
-        x: 156
+        x: 390
         y: 198
         width: 78
         height: 66
@@ -6030,7 +6030,7 @@ TextureImporter:
       name: BGJ_MC 239
       rect:
         serializedVersion: 2
-        x: 234
+        x: 468
         y: 198
         width: 78
         height: 66
@@ -6051,7 +6051,7 @@ TextureImporter:
       name: BGJ_MC 240
       rect:
         serializedVersion: 2
-        x: 312
+        x: 546
         y: 198
         width: 78
         height: 66
@@ -6072,7 +6072,7 @@ TextureImporter:
       name: BGJ_MC 241
       rect:
         serializedVersion: 2
-        x: 390
+        x: 624
         y: 198
         width: 78
         height: 66
@@ -6093,7 +6093,7 @@ TextureImporter:
       name: BGJ_MC 242
       rect:
         serializedVersion: 2
-        x: 468
+        x: 702
         y: 198
         width: 78
         height: 66
@@ -6114,7 +6114,7 @@ TextureImporter:
       name: BGJ_MC 243
       rect:
         serializedVersion: 2
-        x: 546
+        x: 780
         y: 198
         width: 78
         height: 66
@@ -6135,7 +6135,7 @@ TextureImporter:
       name: BGJ_MC 244
       rect:
         serializedVersion: 2
-        x: 624
+        x: 858
         y: 198
         width: 78
         height: 66
@@ -6156,7 +6156,7 @@ TextureImporter:
       name: BGJ_MC 245
       rect:
         serializedVersion: 2
-        x: 702
+        x: 936
         y: 198
         width: 78
         height: 66
@@ -6177,7 +6177,7 @@ TextureImporter:
       name: BGJ_MC 246
       rect:
         serializedVersion: 2
-        x: 780
+        x: 1014
         y: 198
         width: 78
         height: 66
@@ -6198,8 +6198,8 @@ TextureImporter:
       name: BGJ_MC 247
       rect:
         serializedVersion: 2
-        x: 858
-        y: 198
+        x: 0
+        y: 132
         width: 78
         height: 66
       alignment: 0
@@ -6219,8 +6219,8 @@ TextureImporter:
       name: BGJ_MC 248
       rect:
         serializedVersion: 2
-        x: 936
-        y: 198
+        x: 78
+        y: 132
         width: 78
         height: 66
       alignment: 0
@@ -6240,8 +6240,8 @@ TextureImporter:
       name: BGJ_MC 249
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 198
+        x: 156
+        y: 132
         width: 78
         height: 66
       alignment: 0
@@ -6261,7 +6261,7 @@ TextureImporter:
       name: BGJ_MC 250
       rect:
         serializedVersion: 2
-        x: 0
+        x: 234
         y: 132
         width: 78
         height: 66
@@ -6282,7 +6282,7 @@ TextureImporter:
       name: BGJ_MC 251
       rect:
         serializedVersion: 2
-        x: 78
+        x: 312
         y: 132
         width: 78
         height: 66
@@ -6303,7 +6303,7 @@ TextureImporter:
       name: BGJ_MC 252
       rect:
         serializedVersion: 2
-        x: 156
+        x: 390
         y: 132
         width: 78
         height: 66
@@ -6324,7 +6324,7 @@ TextureImporter:
       name: BGJ_MC 253
       rect:
         serializedVersion: 2
-        x: 234
+        x: 468
         y: 132
         width: 78
         height: 66
@@ -6345,7 +6345,7 @@ TextureImporter:
       name: BGJ_MC 254
       rect:
         serializedVersion: 2
-        x: 312
+        x: 546
         y: 132
         width: 78
         height: 66
@@ -6366,7 +6366,7 @@ TextureImporter:
       name: BGJ_MC 255
       rect:
         serializedVersion: 2
-        x: 390
+        x: 624
         y: 132
         width: 78
         height: 66
@@ -6387,7 +6387,7 @@ TextureImporter:
       name: BGJ_MC 256
       rect:
         serializedVersion: 2
-        x: 468
+        x: 702
         y: 132
         width: 78
         height: 66
@@ -6408,7 +6408,7 @@ TextureImporter:
       name: BGJ_MC 257
       rect:
         serializedVersion: 2
-        x: 546
+        x: 780
         y: 132
         width: 78
         height: 66
@@ -6429,7 +6429,7 @@ TextureImporter:
       name: BGJ_MC 258
       rect:
         serializedVersion: 2
-        x: 624
+        x: 858
         y: 132
         width: 78
         height: 66
@@ -6450,7 +6450,7 @@ TextureImporter:
       name: BGJ_MC 259
       rect:
         serializedVersion: 2
-        x: 702
+        x: 936
         y: 132
         width: 78
         height: 66
@@ -6471,7 +6471,7 @@ TextureImporter:
       name: BGJ_MC 260
       rect:
         serializedVersion: 2
-        x: 780
+        x: 1014
         y: 132
         width: 78
         height: 66
@@ -6492,8 +6492,8 @@ TextureImporter:
       name: BGJ_MC 261
       rect:
         serializedVersion: 2
-        x: 858
-        y: 132
+        x: 0
+        y: 66
         width: 78
         height: 66
       alignment: 0
@@ -6513,8 +6513,8 @@ TextureImporter:
       name: BGJ_MC 262
       rect:
         serializedVersion: 2
-        x: 936
-        y: 132
+        x: 78
+        y: 66
         width: 78
         height: 66
       alignment: 0
@@ -6534,8 +6534,8 @@ TextureImporter:
       name: BGJ_MC 263
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 132
+        x: 156
+        y: 66
         width: 78
         height: 66
       alignment: 0
@@ -6555,7 +6555,7 @@ TextureImporter:
       name: BGJ_MC 264
       rect:
         serializedVersion: 2
-        x: 0
+        x: 234
         y: 66
         width: 78
         height: 66
@@ -6576,7 +6576,7 @@ TextureImporter:
       name: BGJ_MC 265
       rect:
         serializedVersion: 2
-        x: 78
+        x: 312
         y: 66
         width: 78
         height: 66
@@ -6597,7 +6597,7 @@ TextureImporter:
       name: BGJ_MC 266
       rect:
         serializedVersion: 2
-        x: 156
+        x: 390
         y: 66
         width: 78
         height: 66
@@ -6618,7 +6618,7 @@ TextureImporter:
       name: BGJ_MC 267
       rect:
         serializedVersion: 2
-        x: 234
+        x: 468
         y: 66
         width: 78
         height: 66
@@ -6639,7 +6639,7 @@ TextureImporter:
       name: BGJ_MC 268
       rect:
         serializedVersion: 2
-        x: 312
+        x: 546
         y: 66
         width: 78
         height: 66
@@ -6660,7 +6660,7 @@ TextureImporter:
       name: BGJ_MC 269
       rect:
         serializedVersion: 2
-        x: 390
+        x: 624
         y: 66
         width: 78
         height: 66
@@ -6681,7 +6681,7 @@ TextureImporter:
       name: BGJ_MC 270
       rect:
         serializedVersion: 2
-        x: 468
+        x: 702
         y: 66
         width: 78
         height: 66
@@ -6702,7 +6702,7 @@ TextureImporter:
       name: BGJ_MC 271
       rect:
         serializedVersion: 2
-        x: 546
+        x: 780
         y: 66
         width: 78
         height: 66
@@ -6723,7 +6723,7 @@ TextureImporter:
       name: BGJ_MC 272
       rect:
         serializedVersion: 2
-        x: 624
+        x: 858
         y: 66
         width: 78
         height: 66
@@ -6744,7 +6744,7 @@ TextureImporter:
       name: BGJ_MC 273
       rect:
         serializedVersion: 2
-        x: 702
+        x: 936
         y: 66
         width: 78
         height: 66
@@ -6765,7 +6765,7 @@ TextureImporter:
       name: BGJ_MC 274
       rect:
         serializedVersion: 2
-        x: 780
+        x: 1014
         y: 66
         width: 78
         height: 66
@@ -6786,8 +6786,8 @@ TextureImporter:
       name: BGJ_MC 275
       rect:
         serializedVersion: 2
-        x: 858
-        y: 66
+        x: 0
+        y: 0
         width: 78
         height: 66
       alignment: 0
@@ -6807,8 +6807,8 @@ TextureImporter:
       name: BGJ_MC 276
       rect:
         serializedVersion: 2
-        x: 936
-        y: 66
+        x: 78
+        y: 0
         width: 78
         height: 66
       alignment: 0
@@ -6828,8 +6828,8 @@ TextureImporter:
       name: BGJ_MC 277
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 66
+        x: 156
+        y: 0
         width: 78
         height: 66
       alignment: 0
@@ -6849,7 +6849,7 @@ TextureImporter:
       name: BGJ_MC 278
       rect:
         serializedVersion: 2
-        x: 0
+        x: 234
         y: 0
         width: 78
         height: 66
@@ -6870,7 +6870,7 @@ TextureImporter:
       name: BGJ_MC 279
       rect:
         serializedVersion: 2
-        x: 78
+        x: 312
         y: 0
         width: 78
         height: 66
@@ -6891,7 +6891,7 @@ TextureImporter:
       name: BGJ_MC 280
       rect:
         serializedVersion: 2
-        x: 156
+        x: 390
         y: 0
         width: 78
         height: 66
@@ -6912,7 +6912,7 @@ TextureImporter:
       name: BGJ_MC 281
       rect:
         serializedVersion: 2
-        x: 234
+        x: 468
         y: 0
         width: 78
         height: 66
@@ -6933,7 +6933,7 @@ TextureImporter:
       name: BGJ_MC 282
       rect:
         serializedVersion: 2
-        x: 312
+        x: 546
         y: 0
         width: 78
         height: 66
@@ -6954,7 +6954,7 @@ TextureImporter:
       name: BGJ_MC 283
       rect:
         serializedVersion: 2
-        x: 390
+        x: 624
         y: 0
         width: 78
         height: 66
@@ -6975,7 +6975,7 @@ TextureImporter:
       name: BGJ_MC 284
       rect:
         serializedVersion: 2
-        x: 468
+        x: 702
         y: 0
         width: 78
         height: 66
@@ -6996,7 +6996,7 @@ TextureImporter:
       name: BGJ_MC 285
       rect:
         serializedVersion: 2
-        x: 546
+        x: 780
         y: 0
         width: 78
         height: 66
@@ -7017,7 +7017,7 @@ TextureImporter:
       name: BGJ_MC 286
       rect:
         serializedVersion: 2
-        x: 624
+        x: 546
         y: 0
         width: 78
         height: 66
@@ -7038,7 +7038,7 @@ TextureImporter:
       name: BGJ_MC 287
       rect:
         serializedVersion: 2
-        x: 702
+        x: 624
         y: 0
         width: 78
         height: 66
@@ -7059,7 +7059,7 @@ TextureImporter:
       name: BGJ_MC 288
       rect:
         serializedVersion: 2
-        x: 780
+        x: 702
         y: 0
         width: 78
         height: 66
@@ -7080,7 +7080,7 @@ TextureImporter:
       name: BGJ_MC 289
       rect:
         serializedVersion: 2
-        x: 858
+        x: 780
         y: 0
         width: 78
         height: 66
@@ -7101,7 +7101,7 @@ TextureImporter:
       name: BGJ_MC 290
       rect:
         serializedVersion: 2
-        x: 624
+        x: 546
         y: 0
         width: 78
         height: 66
@@ -7122,7 +7122,7 @@ TextureImporter:
       name: BGJ_MC 291
       rect:
         serializedVersion: 2
-        x: 702
+        x: 624
         y: 0
         width: 78
         height: 66
@@ -7143,7 +7143,7 @@ TextureImporter:
       name: BGJ_MC 292
       rect:
         serializedVersion: 2
-        x: 780
+        x: 702
         y: 0
         width: 78
         height: 66
@@ -7164,7 +7164,7 @@ TextureImporter:
       name: BGJ_MC 293
       rect:
         serializedVersion: 2
-        x: 858
+        x: 702
         y: 0
         width: 78
         height: 66
@@ -7185,7 +7185,7 @@ TextureImporter:
       name: BGJ_MC 294
       rect:
         serializedVersion: 2
-        x: 624
+        x: 780
         y: 0
         width: 78
         height: 66
@@ -7206,7 +7206,7 @@ TextureImporter:
       name: BGJ_MC 295
       rect:
         serializedVersion: 2
-        x: 702
+        x: 546
         y: 0
         width: 78
         height: 66
@@ -7227,7 +7227,7 @@ TextureImporter:
       name: BGJ_MC 296
       rect:
         serializedVersion: 2
-        x: 780
+        x: 624
         y: 0
         width: 78
         height: 66
@@ -7248,7 +7248,7 @@ TextureImporter:
       name: BGJ_MC 297
       rect:
         serializedVersion: 2
-        x: 780
+        x: 702
         y: 0
         width: 78
         height: 66
@@ -7269,7 +7269,7 @@ TextureImporter:
       name: BGJ_MC 298
       rect:
         serializedVersion: 2
-        x: 858
+        x: 780
         y: 0
         width: 78
         height: 66
@@ -7290,7 +7290,7 @@ TextureImporter:
       name: BGJ_MC 299
       rect:
         serializedVersion: 2
-        x: 624
+        x: 546
         y: 0
         width: 78
         height: 66
@@ -7311,7 +7311,7 @@ TextureImporter:
       name: BGJ_MC 300
       rect:
         serializedVersion: 2
-        x: 702
+        x: 624
         y: 0
         width: 78
         height: 66
@@ -7332,7 +7332,7 @@ TextureImporter:
       name: BGJ_MC 301
       rect:
         serializedVersion: 2
-        x: 780
+        x: 702
         y: 0
         width: 78
         height: 66
@@ -7353,7 +7353,7 @@ TextureImporter:
       name: BGJ_MC 302
       rect:
         serializedVersion: 2
-        x: 858
+        x: 780
         y: 0
         width: 78
         height: 66
@@ -7374,7 +7374,7 @@ TextureImporter:
       name: BGJ_MC 303
       rect:
         serializedVersion: 2
-        x: 624
+        x: 546
         y: 0
         width: 78
         height: 66
@@ -7395,7 +7395,7 @@ TextureImporter:
       name: BGJ_MC 304
       rect:
         serializedVersion: 2
-        x: 702
+        x: 624
         y: 0
         width: 78
         height: 66
@@ -7416,7 +7416,7 @@ TextureImporter:
       name: BGJ_MC 305
       rect:
         serializedVersion: 2
-        x: 780
+        x: 702
         y: 0
         width: 78
         height: 66
@@ -7437,7 +7437,7 @@ TextureImporter:
       name: BGJ_MC 306
       rect:
         serializedVersion: 2
-        x: 858
+        x: 780
         y: 0
         width: 78
         height: 66
@@ -7450,90 +7450,6 @@ TextureImporter:
       bones: []
       spriteID: 8b033d5d6d6bab3b0800000000000000
       internalID: -5495879361425624904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BGJ_MC 307
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 0
-        width: 78
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a97ba1fdf15033d0800000000000000
-      internalID: -3228990781701523039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BGJ_MC 308
-      rect:
-        serializedVersion: 2
-        x: 702
-        y: 0
-        width: 78
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0256d5a0365e1dba0800000000000000
-      internalID: -6065815009552931552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BGJ_MC 309
-      rect:
-        serializedVersion: 2
-        x: 780
-        y: 0
-        width: 78
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fe40ba043ce1edd0800000000000000
-      internalID: -2458424213305798919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BGJ_MC 310
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 0
-        width: 78
-        height: 66
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a3e530faa2742a20800000000000000
-      internalID: 3036678127254627232
       vertices: []
       indices: 
       edges: []

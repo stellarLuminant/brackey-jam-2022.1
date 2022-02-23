@@ -30,6 +30,8 @@ public class PlayerSounds : MonoBehaviour
 
 
 	[Header("Sound Data")]
+	public AudioStepClip HurtClip;
+	public AudioStepClip[] AttackClips;
 	public AudioStepClip[] SqueakAudioStep;
 	public AudioStepClip[] PillowAudioStep;
 	public AudioStepClip[] BridgeAudioStep;
@@ -40,14 +42,16 @@ public class PlayerSounds : MonoBehaviour
 	public bool DisableSqueak = true;
 	public bool MakeStepSound;
 
+	#region Unity Behavior
+
 	private void Start()
 	{
 		_player = GetComponent<Player>();
 
 		Debug.Assert(_player != null, "PlayerSounds couldn't find Player component");
-		Debug.Assert(CobbleTilemap != null, "All tilemaps must be filled in inspector");
-		Debug.Assert(BridgeTilemap != null, "All tilemaps must be filled in inspector");
-		Debug.Assert(PillowTilemap != null, "All tilemaps must be filled in inspector");
+		Debug.Assert(CobbleTilemap != null, "CobbleTilemap must be filled in inspector");
+		Debug.Assert(BridgeTilemap != null, "BridgeTilemap must be filled in inspector");
+		Debug.Assert(PillowTilemap != null, "PillowTilemap must be filled in inspector");
 	}
 
 	private void Update()
@@ -60,6 +64,16 @@ public class PlayerSounds : MonoBehaviour
 		}
 	}
 
+	#endregion
+
+	private void PlaySoundGenerically(AudioStepClip clip)
+	{
+		SoundHelper.PlaySoundWithVariation(
+			clip.stepClip,
+			clip.volume,
+			clip.volume != 0 ? clip.volumeVariation : 0,
+			clip.pitchVariation);
+	}
 	public void DoWalkSound()
 	{
 		// By walking diagonally, even though only one animation
@@ -103,7 +117,7 @@ public class PlayerSounds : MonoBehaviour
 		}
 		else
 		{
-			Debug.LogWarning("No hit collider found");
+			// Debug.LogWarning("No hit collider found");
 		}
 
 		// var index = Random.Range(0, stepClips.Length);
@@ -114,15 +128,11 @@ public class PlayerSounds : MonoBehaviour
 		var squeakClip = SqueakAudioStep[squeakIndex];
 
 		// Debug.Log($"randomAudio.stepClip: ${randomAudio.stepClip.name}");
-		SoundHelper.PlaySoundWithVariation(
-			randomAudio.stepClip,
-			randomAudio.volume,
-			randomAudio.volume != 0 ? randomAudio.volumeVariation : 0,
-			randomAudio.pitchVariation);
+		PlaySoundGenerically(randomAudio);
 
+		// Squeaky footsteps logic
 		if (!DisableSqueak)
 		{
-
 			var squeakVolume = squeakClip.volume;
 			var squeakVolumeVariation = squeakVolume != 0 ? squeakClip.volumeVariation : 0;
 
@@ -155,8 +165,20 @@ public class PlayerSounds : MonoBehaviour
 
 			}
 		}
-		
+
 		_alternatingIndex = (_alternatingIndex + 1) % stepClips.Length;
 		_squeakAlternatingIndex = (squeakIndex + 1) % SqueakAudioStep.Length;
 	}
+
+	public void DoAttackSound(int attackTimes)
+	{
+		attackTimes = attackTimes % AttackClips.Length;
+		PlaySoundGenerically(AttackClips[attackTimes]);
+	}
+
+	public void DoHurtSound()
+	{
+		PlaySoundGenerically(HurtClip);
+	}
+
 }

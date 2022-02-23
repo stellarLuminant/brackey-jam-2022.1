@@ -310,6 +310,20 @@ MonoBehaviour:
   PillowTilemap: {fileID: 0}
   BridgeTilemap: {fileID: 0}
   CobbleTilemap: {fileID: 0}
+  HurtClip:
+    stepClip: {fileID: 0}
+    volume: 1
+    volumeVariation: 0
+    pitchVariation: 0.1
+  AttackClips:
+  - stepClip: {fileID: 8300000, guid: 73cd2d02fc8ba20439baaa9630868a8a, type: 3}
+    volume: 0.5
+    volumeVariation: 0.05
+    pitchVariation: 0.05
+  - stepClip: {fileID: 8300000, guid: 20e8b1a261e280c4ba1b8b6231524799, type: 3}
+    volume: 0.5
+    volumeVariation: 0.05
+    pitchVariation: 0.05
   SqueakAudioStep:
   - stepClip: {fileID: 8300000, guid: d41db8c1eeb342143b9a2bde9091de04, type: 3}
     volume: 0.2

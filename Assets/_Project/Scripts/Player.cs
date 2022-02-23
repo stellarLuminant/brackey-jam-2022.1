@@ -29,6 +29,17 @@ public class Player : MonoBehaviour
 	// The position the player was last frame.
 	private Vector2 OldPosition;
 
+	private PlayerSounds Sounds;
+
+	// The amount of times the player has chained attacks.
+	private Int32 AttackTimes;
+
+	// Will be true if the attack key was pressed during cooldown.
+	private bool AttackBuffer;
+
+	// Contains Time.time, when the first attack animation was played.
+	private float AttackTimestamp;
+
 	#endregion State
 
 	#region Parameters
@@ -126,7 +137,7 @@ public class Player : MonoBehaviour
 			: Vector3.Normalize(direction);
 	}
 
-	// Sets the LookDirection to MoveDirection if it is non-zero and non-diagonal
+	// Sets the LookDirection to MoveDirection if it is non-zero
 	private void SetLookDirection(Vector3 moveDir)
 	{
 		if (moveDir == Vector3.zero)
@@ -136,9 +147,17 @@ public class Player : MonoBehaviour
 		Animator.SetFloat("Horizontal", moveDir.x);
 		Animator.SetFloat("Vertical", moveDir.y);
 
-		// ignore if movement is diagonal
+		// If movement is diagonal
 		if (moveDir.x != 0 && moveDir.y != 0)
+		{
+			// If there's y position changes, pass that through
+			// due to how the animator works.
+			// Else, ignore diagonal x movement.
+			if (moveDir.y != 0)
+				LookDirection = new Vector3(0, Math.Sign(moveDir.y), 0);
+
 			return;
+		}
 
 		LookDirection = moveDir;
 	}
@@ -167,10 +186,14 @@ public class Player : MonoBehaviour
 	{
 		Animator = GetComponent<Animator>();
 		Rigidbody = GetComponent<Rigidbody2D>();
+		Sounds = GetComponent<PlayerSounds>();
 
 		// Player looks down on init.
 		SetLookDirection(new Vector3(0, -1, 0));
 		CurrentLife = StartingLife;
+
+		// Animation variable startup
+		Animator.SetBool("Idle", true);
 	}
 
 	private void UpdateMovement()
@@ -189,15 +212,41 @@ public class Player : MonoBehaviour
 	{
 		AttackTimer = Mathf.Max(0, AttackTimer - Time.deltaTime);
 
-		if (AttackTimer > 0 || !IsAttackPressed) {
+		if (AttackTimer > 0 || (!IsAttackPressed && !AttackBuffer))
+		{
+			if (IsAttackPressed)
+				AttackBuffer = true;
 			return;
 		}
 
+		if (AttackBuffer)
+		{
+			AttackTimes++;
+			AttackTimes = AttackTimes % 2;
+		}
+		else
+		{
+			AttackTimes = 0;
+		}
+
+		AttackBuffer = false;
 		AttackTimer = AttackCooldown;
 		var attackPosition = (Vector3)Rigidbody.position + GetAttackDisplacement();
 		var attackRotation = Utils.NormalToDeg(Utils.To2D(LookDirection));
 		var attackObject = UnityEngine.Object.Instantiate(AttackPrefab, attackPosition, Quaternion.Euler(0, 0, attackRotation));
-		// TODO: Set the animation to the attacking sprite.
+
+		// Attack Aniamtion 
+		if (AttackTimes == 0)
+		{
+			Animator.Play("Attack");
+			AttackTimestamp = Time.time;
+		}
+		else
+		{
+			Animator.Play("Attack 2", 0, (Time.time - AttackTimestamp) / .6f);
+		}
+		Sounds.DoAttackSound(AttackTimes);
+		Animator.SetBool("Idle", true);
 	}
 
 	private void UpdateInvul()
@@ -207,39 +256,78 @@ public class Player : MonoBehaviour
 
 	private void UpdateAnimation()
 	{
+		if (CurrentLife <= 0)
+		{
+			// Death animation handled in Player.ReceiveAttack()
+			return;
+		}
+
+		if (IsInAttackStop)
+		{
+			// Attack animation handled by Player.UpdateAttack()
+			return;
+		}
+
+		var idle = Animator.GetBool("Idle");
 		Vector3 moveDir = GetMoveDirection();
 		if (moveDir == Vector3.zero)
 		{
-			Animator.Play("Idle");
+			if (!idle)
+			{
+				// Debug.Log("Idle moveDir == Vector3.zero");
+
+				Animator.Play("Idle");
+				Animator.SetBool("Idle", true);
+			}
 			return;
 		}
 
+		// If player is trying to move, but isn't due to collisions,
+		// play the idle animation
 		if (IsApproximately(OldPosition, Rigidbody.position))
 		{
-			Animator.Play("Idle");
+			if (!idle)
+			{
+				// Debug.Log("Idle wall");
+
+				Animator.Play("Idle");
+				Animator.SetBool("Idle", true);
+			}
 			return;
 		}
 
-		Animator.Play("Movement");
+		if (idle)
+		{
+			// Debug.Log("Movement");
+			Animator.Play("Movement");
+			Animator.SetBool("Idle", false);
+		}
 	}
 
 	private void ReceiveAttack(GameObject attack)
 	{
 		if (InvulTimer > 0)
 			return;
-		
+
 		CurrentLife -= 1;
 		InvulTimer = InvulDuration;
 
-		if (CurrentLife > 0) {
+		var isIdle = GetMoveDirection() == Vector3.zero;
+		if (CurrentLife > 0)
+		{
 			Debug.Log("Player.ReceiveAttack(): player received damage");
 			// TODO: Hurt and game over states.
 			// PlaySound("Ouch!");
-			// Animator.Play("LegitHurt");
-		} else {
+			Sounds.DoHurtSound();
+			Animator.Play("Ouch");
+			Animator.SetBool("Idle", isIdle);
+		}
+		else
+		{
 			Debug.Log("Player.ReceiveAttack(): player lost all life");
 			// PlaySound("Oh no!");
-			// Animator.Play("LegitGameOver");
+			Animator.Play("Game Over");
+			Animator.SetBool("Idle", isIdle);
 			// TellManagerThatTheresAGameOver();
 		}
 	}
@@ -258,16 +346,17 @@ public class Player : MonoBehaviour
 		UpdateAnimation();
 	}
 
-  private void OnTriggerEnter2D(Collider2D c)
-  {
-		if (c.gameObject.layer == Utils.EnemyAttackLayer) {
+	private void OnTriggerEnter2D(Collider2D c)
+	{
+		if (c.gameObject.layer == Utils.EnemyAttackLayer)
+		{
 			ReceiveAttack(c.gameObject);
 			return;
 		}
 
 		// add more collision cases above
 		Debug.Log($"Player.OnTriggerEnter2D(Collider2D): layer \"{c.gameObject.layer}\" was not processed");
-  }
+	}
 
 	#endregion Unity Behaviour
 }
