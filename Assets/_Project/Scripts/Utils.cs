@@ -43,20 +43,15 @@ public static class Utils
         return false;
     }
 
-    private static Vector2 CollisionBoxSize = new Vector2(0.125f, 0.125f);
-    private static Single CollisionBoxAngle = 0;
-    private static Vector2 CollisionBoxDirection = new Vector2(1, 0);
-    private static Single CollisionBoxDistance = 0;
-    private static LayerMask ObstacleLayerMask = (LayerMask)(LayerMask.GetMask("Wall") + LayerMask.GetMask("Objects"));
-    private static LayerMask ObjectLayerMask = LayerMask.GetMask("Objects");
+    public static readonly int ObstacleLayer = LayerMask.GetMask("Obstacle");
 
-    public static bool IsTileEmpty(Vector3 pos)
-    {
-        return Physics2D.BoxCast(pos, CollisionBoxSize, CollisionBoxAngle, CollisionBoxDirection, CollisionBoxDistance, ObstacleLayerMask).collider == null;
-    }
+    public static readonly int PlayerLayer = LayerMask.GetMask("Player");
 
-    public static Collider2D CastForObjectOnTile(Vector3 pos)
-    {
-        return Physics2D.BoxCast(pos, CollisionBoxSize, CollisionBoxAngle, CollisionBoxDirection, CollisionBoxDistance, ObjectLayerMask).collider;
-    }
+    public static readonly int EnemyLayer = LayerMask.GetMask("Enemy");
+
+    public static readonly int PlayerAttackLayer = LayerMask.GetMask("PlayerAttack");
+
+    public static readonly int EnemyAttackLayer = LayerMask.GetMask("EnemyAttack");
+
+    public static readonly int GroundLayer = LayerMask.GetMask("Ground");
 }

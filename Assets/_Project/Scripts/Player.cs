@@ -9,17 +9,18 @@ public class Player : MonoBehaviour
 {
 	#region State
 
-	// Tiles per second.
-	public Single MoveSpeed = 1;
-
+	[Header("State")]
 	// The current direction the character is looking at.
 	public Vector3 LookDirection;
 
-	// Multiple inputs we can allow.
-	public KeyCode[] Input_MoveUp = { KeyCode.UpArrow };
-	public KeyCode[] Input_MoveDown = { KeyCode.DownArrow };
-	public KeyCode[] Input_MoveLeft = { KeyCode.LeftArrow };
-	public KeyCode[] Input_MoveRight = { KeyCode.RightArrow };
+	// The current time in seconds for when the player cannot receive damage.
+	public Single InvulTimer;
+
+	// The current time in seconds for when the player cannot attack.
+	public Single AttackTimer;
+
+	// The current number of life points the player has.
+	public Int32 CurrentLife;
 
 	private Rigidbody2D Rigidbody;
 
@@ -30,9 +31,37 @@ public class Player : MonoBehaviour
 
 	#endregion State
 
-	#region Helpers
+	#region Parameters
 
-	public Vector3 GridPos => Utils.ToGridPosition(transform.localPosition);
+	[Header("Parameters")]
+	// Tiles per second.
+	public Single MoveSpeed = 100;
+
+	// Time in seconds when the player is invul after taking damage.
+	public Single InvulDuration = 2;
+
+	// Time in seconds when the player cannot attack again.
+	public Single AttackCooldown = 0.5f;
+
+	// Distance in pixels that the attack object will spawn away from the player.
+	public Single AttackDistance = 10;
+
+	// Player starts the game with this many life points.
+	public Int32 StartingLife = 3;
+
+	// Player can store up to a maximum of this many life points.
+	public Int32 MaximumLife = 5;
+
+	// Multiple inputs we can allow.
+	public KeyCode[] Input_MoveUp = { KeyCode.UpArrow, KeyCode.W };
+	public KeyCode[] Input_MoveDown = { KeyCode.DownArrow, KeyCode.S };
+	public KeyCode[] Input_MoveLeft = { KeyCode.LeftArrow, KeyCode.A };
+	public KeyCode[] Input_MoveRight = { KeyCode.RightArrow, KeyCode.D };
+	public KeyCode[] Input_Attack = { KeyCode.Space, KeyCode.Return, KeyCode.Z };
+
+	#endregion Parameters
+
+	#region Helpers
 
 	private bool IsMovingUp => Utils.CheckInputsHeld(Input_MoveUp);
 
@@ -41,6 +70,8 @@ public class Player : MonoBehaviour
 	private bool IsMovingLeft => Utils.CheckInputsHeld(Input_MoveLeft);
 
 	private bool IsMovingRight => Utils.CheckInputsHeld(Input_MoveRight);
+
+	private bool IsAttackPressed => Utils.CheckInputsPressed(Input_Attack);
 
 	private Vector3 GetVerticalMoveDirection()
 	{
@@ -87,11 +118,6 @@ public class Player : MonoBehaviour
 			: Vector3.Normalize(direction);
 	}
 
-	private Vector3 GetInteractCursorPosition()
-	{
-		return GridPos + Utils.ToGridPosition(LookDirection);
-	}
-
 	// Sets the LookDirection to MoveDirection if it is non-zero and non-diagonal
 	private void SetLookDirection(Vector3 moveDir)
 	{
@@ -119,6 +145,11 @@ public class Player : MonoBehaviour
 		return Math.Abs(b - a) < range;
 	}
 
+	private Vector3 GetAttackDisplacement()
+	{
+		return LookDirection * AttackDistance;
+	}
+
 	#endregion Helpers
 
 	#region Unity Behaviour
@@ -131,6 +162,7 @@ public class Player : MonoBehaviour
 
 		// Player looks down on init.
 		SetLookDirection(new Vector3(0, -1, 0));
+		CurrentLife = StartingLife;
 	}
 
 	private void UpdateMovement()
@@ -139,6 +171,27 @@ public class Player : MonoBehaviour
 		Vector3 moveDir = GetMoveDirection();
 		Rigidbody.velocity = moveDir * MoveSpeed;
 		SetLookDirection(moveDir);
+	}
+
+	private void UpdateAttack()
+	{
+		AttackTimer = Mathf.Max(0, AttackTimer - Time.fixedDeltaTime);
+
+		if (AttackTimer > 0 || !IsAttackPressed) {
+			return;
+		}
+
+		AttackTimer = AttackCooldown;
+
+		var attackPosition = (Vector3)Rigidbody.position + GetAttackDisplacement();
+		// TODO: Spawn the attack object (need a prefab here!) at the attackPosition
+		// Probably also wanna set its rotation to the LookDirection. Trig time
+		// Set the animation to the attacking sprite.
+	}
+
+	private void UpdateInvul()
+	{
+		InvulTimer = Mathf.Max(0, InvulTimer - Time.fixedDeltaTime);
 	}
 
 	private void UpdateAnimation()
@@ -152,7 +205,6 @@ public class Player : MonoBehaviour
 
 		if (IsApproximately(OldPosition, Rigidbody.position))
 		{
-			//Animator.Play("Push");
 			Animator.Play("Idle");
 			return;
 		}
@@ -160,11 +212,31 @@ public class Player : MonoBehaviour
 		Animator.Play("Movement");
 	}
 
+	private void ReceiveAttack(GameObject attack)
+	{
+		if (InvulTimer > 0)
+			return;
+		
+		CurrentLife -= 1;
+		InvulTimer = InvulDuration;
+
+		if (CurrentLife > 0) {
+			// TODO: Hurt and game over states.
+			// PlaySound("Ouch!");
+			// Animator.Play("LegitHurt");
+		} else {
+			// PlaySound("Oh no!");
+			// Animator.Play("LegitGameOver");
+			// TellManagerThatTheresAGameOver();
+		}
+	}
 
 	// FixedUpdate is called once per physics update
 	private void FixedUpdate()
 	{
 		UpdateMovement();
+		UpdateAttack();
+		UpdateInvul();
 	}
 
 	// Update is called once per frame
@@ -172,6 +244,17 @@ public class Player : MonoBehaviour
 	{
 		UpdateAnimation();
 	}
+
+  private void OnTriggerEnter2D(Collider2D c)
+  {
+		if (c.gameObject.layer == Utils.EnemyAttackLayer) {
+			ReceiveAttack(c.gameObject);
+			return;
+		}
+
+		// add more collision cases above
+		Debug.Log($"Player.OnTriggerEnter2D(Collider2D): layer \"{c.gameObject.layer}\" was not processed");
+  }
 
 	#endregion Unity Behaviour
 }
