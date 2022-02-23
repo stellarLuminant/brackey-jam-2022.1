@@ -12,6 +12,15 @@ public static class Utils
         return new Vector2(v.x, v.y);
     }
 
+    public static Single NormalToDeg(Vector2 v) {
+        return Mathf.Rad2Deg * Mathf.Atan2(v.y, v.x);
+    }
+
+    public static Vector2 DegToNormal(Single degrees) {
+        var radians = degrees * Mathf.Deg2Rad;
+        return new Vector2(Mathf.Cos(radians), Mathf.Sin(radians));
+    }
+
     public static Vector2 NormalizeAtMagnitude(Vector2 v, float magnitude) {
         return v.normalized * magnitude;
     }

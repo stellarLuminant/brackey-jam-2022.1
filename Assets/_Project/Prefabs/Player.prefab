@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883910742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -18, z: 0}
+  m_LocalPosition: {x: 0.5, y: -15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6491375761710819271}
@@ -151,9 +151,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6491375761710819267}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c08c0496fc826f54d9041d21aede9927, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4a822b391d48c184ba30db1201b0bb10, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -201,13 +201,13 @@ SpriteRenderer:
   m_SortingLayerID: -1628607475
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 5743033938768375983, guid: 8d26364173d2ca64780fe71a304dd22e,
+  m_Sprite: {fileID: -7000717396169972748, guid: 4f82aa73c6cdabd4fb25eca278ad9aea,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 43, y: 50}
+  m_Size: {x: 78, y: 66}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -226,12 +226,12 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -7}
+  m_Offset: {x: 0.5, y: -4}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 43, y: 50}
-    newSize: {x: 43, y: 50}
+    oldSize: {x: 78, y: 66}
+    newSize: {x: 78, y: 66}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -252,7 +252,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1000
-  m_LinearDrag: 8
+  m_LinearDrag: 24
   m_AngularDrag: 1000
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 3e0c57740b28f714b86b44d32bc4d7e4, type: 2}
@@ -272,12 +272,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a828d00fc68c44f8df176ce0f71507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 140
   LookDirection: {x: 0, y: 0, z: 0}
-  Input_MoveUp: 11010000
-  Input_MoveDown: 12010000
-  Input_MoveLeft: 14010000
-  Input_MoveRight: 13010000
+  InvulTimer: 0
+  AttackTimer: 0
+  CurrentLife: 0
+  MoveSpeed: 140
+  InvulDuration: 2
+  AttackCooldown: 0.2
+  AttackMoveCooldown: 0.15
+  AttackDistance: 10
+  StartingLife: 3
+  MaximumLife: 5
+  AttackPrefab: {fileID: 8167665826887208758, guid: c41afcd5855471b4ca44e18fe98ce50d,
+    type: 3}
+  Input_MoveUp: 1101000077000000
+  Input_MoveDown: 1201000073000000
+  Input_MoveLeft: 1401000061000000
+  Input_MoveRight: 1301000064000000
+  Input_Attack: 200000000d0000007a000000
 --- !u!114 &1492432768
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -43,6 +43,9 @@ public class Player : MonoBehaviour
 	// Time in seconds when the player cannot attack again.
 	public Single AttackCooldown = 0.5f;
 
+	// Time in seconds when the player cannot move after an attack.
+	public Single AttackMoveCooldown = 0.125f;
+
 	// Distance in pixels that the attack object will spawn away from the player.
 	public Single AttackDistance = 10;
 
@@ -51,6 +54,9 @@ public class Player : MonoBehaviour
 
 	// Player can store up to a maximum of this many life points.
 	public Int32 MaximumLife = 5;
+
+	// The attack object spawned by the attack action.
+	public GameObject AttackPrefab;
 
 	// Multiple inputs we can allow.
 	public KeyCode[] Input_MoveUp = { KeyCode.UpArrow, KeyCode.W };
@@ -72,6 +78,8 @@ public class Player : MonoBehaviour
 	private bool IsMovingRight => Utils.CheckInputsHeld(Input_MoveRight);
 
 	private bool IsAttackPressed => Utils.CheckInputsPressed(Input_Attack);
+
+	private bool IsInAttackStop => AttackTimer > AttackCooldown - AttackMoveCooldown;
 
 	private Vector3 GetVerticalMoveDirection()
 	{
@@ -168,6 +176,10 @@ public class Player : MonoBehaviour
 	private void UpdateMovement()
 	{
 		OldPosition = Rigidbody.position;
+
+		if (IsInAttackStop)
+			return;
+
 		Vector3 moveDir = GetMoveDirection();
 		Rigidbody.velocity = moveDir * MoveSpeed;
 		SetLookDirection(moveDir);
@@ -175,18 +187,17 @@ public class Player : MonoBehaviour
 
 	private void UpdateAttack()
 	{
-		AttackTimer = Mathf.Max(0, AttackTimer - Time.fixedDeltaTime);
+		AttackTimer = Mathf.Max(0, AttackTimer - Time.deltaTime);
 
 		if (AttackTimer > 0 || !IsAttackPressed) {
 			return;
 		}
 
 		AttackTimer = AttackCooldown;
-
 		var attackPosition = (Vector3)Rigidbody.position + GetAttackDisplacement();
-		// TODO: Spawn the attack object (need a prefab here!) at the attackPosition
-		// Probably also wanna set its rotation to the LookDirection. Trig time
-		// Set the animation to the attacking sprite.
+		var attackRotation = Utils.NormalToDeg(Utils.To2D(LookDirection));
+		var attackObject = UnityEngine.Object.Instantiate(AttackPrefab, attackPosition, Quaternion.Euler(0, 0, attackRotation));
+		// TODO: Set the animation to the attacking sprite.
 	}
 
 	private void UpdateInvul()
@@ -235,13 +246,13 @@ public class Player : MonoBehaviour
 	private void FixedUpdate()
 	{
 		UpdateMovement();
-		UpdateAttack();
 		UpdateInvul();
 	}
 
 	// Update is called once per frame
 	private void Update()
 	{
+		UpdateAttack();
 		UpdateAnimation();
 	}
 
