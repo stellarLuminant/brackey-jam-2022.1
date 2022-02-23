@@ -52,15 +52,17 @@ public static class Utils
         return false;
     }
 
-    public static readonly int ObstacleLayer = LayerMask.GetMask("Obstacle");
+    public static readonly int ObstacleLayer = LayerMask.NameToLayer("Obstacle");
 
-    public static readonly int PlayerLayer = LayerMask.GetMask("Player");
+    public static readonly int PlayerLayer = LayerMask.NameToLayer("Player");
 
-    public static readonly int EnemyLayer = LayerMask.GetMask("Enemy");
+    public static readonly int EnemyLayer = LayerMask.NameToLayer("Enemy");
 
-    public static readonly int PlayerAttackLayer = LayerMask.GetMask("PlayerAttack");
+    public static readonly int PlayerAttackLayer = LayerMask.NameToLayer("PlayerAttack");
 
-    public static readonly int EnemyAttackLayer = LayerMask.GetMask("EnemyAttack");
+    public static readonly int EnemyAttackLayer = LayerMask.NameToLayer("EnemyAttack");
 
-    public static readonly int GroundLayer = LayerMask.GetMask("Ground");
+    public static readonly int GroundLayer = LayerMask.NameToLayer("Ground");
+
+    public static readonly int BoundaryLayer = LayerMask.NameToLayer("Boundary");
 }

@@ -232,10 +232,12 @@ public class Player : MonoBehaviour
 		InvulTimer = InvulDuration;
 
 		if (CurrentLife > 0) {
+			Debug.Log("Player.ReceiveAttack(): player received damage");
 			// TODO: Hurt and game over states.
 			// PlaySound("Ouch!");
 			// Animator.Play("LegitHurt");
 		} else {
+			Debug.Log("Player.ReceiveAttack(): player lost all life");
 			// PlaySound("Oh no!");
 			// Animator.Play("LegitGameOver");
 			// TellManagerThatTheresAGameOver();

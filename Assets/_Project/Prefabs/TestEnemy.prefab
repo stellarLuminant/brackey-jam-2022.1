@@ -93,6 +93,8 @@ GameObject:
   - component: {fileID: 7337715987044426305}
   - component: {fileID: 7337715987044426304}
   - component: {fileID: 840025426}
+  - component: {fileID: 978504806624784621}
+  - component: {fileID: 2079668151592113579}
   m_Layer: 10
   m_Name: TestEnemy
   m_TagString: Untagged
@@ -153,8 +155,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
-  m_Mass: 3000
-  m_LinearDrag: 20
+  m_Mass: 2000
+  m_LinearDrag: 8
   m_AngularDrag: 1000
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 3e0c57740b28f714b86b44d32bc4d7e4, type: 2}
@@ -175,5 +177,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 100
-  AccelFactor: 1.4
+  AccelFactor: 1.6
   MinDistance: 30
+--- !u!114 &978504806624784621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7337715987044426334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79665f72cdfa72d4587d229afaac05e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackTimer: 0
+  AttackCooldown: 2.4
+  MaxAttackRange: 400
+  MinAttackRange: 25
+  AttackPrefab: {fileID: 8325839708985217112, guid: b07d6f16011bd9b42b8fd4ed4b524222,
+    type: 3}
+--- !u!114 &2079668151592113579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7337715987044426334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217d8079c714b7c45871bc15d935c603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentLife: 1
