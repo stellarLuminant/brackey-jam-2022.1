@@ -213,7 +213,7 @@ PrefabInstance:
     - target: {fileID: 4429508252915151265, guid: 51e609d1680233e4780db92f57f1af57,
         type: 3}
       propertyPath: m_Name
-      value: Room Boundary 1x2 (1)
+      value: Room 1x2
       objectReference: {fileID: 0}
     - target: {fileID: 4429508252915151265, guid: 51e609d1680233e4780db92f57f1af57,
         type: 3}
@@ -223,7 +223,7 @@ PrefabInstance:
     - target: {fileID: 4429508252915151266, guid: 51e609d1680233e4780db92f57f1af57,
         type: 3}
       propertyPath: m_Size.y
-      value: 960
+      value: 480
       objectReference: {fileID: 0}
     - target: {fileID: 4429508253926294625, guid: 51e609d1680233e4780db92f57f1af57,
         type: 3}

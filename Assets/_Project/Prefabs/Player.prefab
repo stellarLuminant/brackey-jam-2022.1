@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 6491375761710819269}
   - component: {fileID: 1492432767}
   - component: {fileID: 1492432768}
+  - component: {fileID: 9162972666593076196}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -299,20 +300,20 @@ MonoBehaviour:
   CobbleTilemap: {fileID: 0}
   SqueakAudioStep:
   - stepClip: {fileID: 8300000, guid: d41db8c1eeb342143b9a2bde9091de04, type: 3}
-    volume: 0.25
-    volumeVariation: 0.025
-    pitchVariation: 0.1
+    volume: 0.2
+    volumeVariation: 0.04
+    pitchVariation: 0.005
   - stepClip: {fileID: 8300000, guid: d4458af4b2bf6d9419e6f31f19d64744, type: 3}
-    volume: 0.25
-    volumeVariation: 0.025
-    pitchVariation: 0.1
+    volume: 0.2
+    volumeVariation: 0.04
+    pitchVariation: 0.005
   PillowAudioStep:
   - stepClip: {fileID: 8300000, guid: a299c56c0a0d6b84a80bc5c69e0cb439, type: 3}
-    volume: 0.5
+    volume: 0.3
     volumeVariation: 0.1
     pitchVariation: 0.1
   - stepClip: {fileID: 8300000, guid: 27974c9cc159e3b449b53f9ecbc4684a, type: 3}
-    volume: 1
+    volume: 0.5
     volumeVariation: 0.1
     pitchVariation: 0.1
   BridgeAudioStep:
@@ -325,9 +326,26 @@ MonoBehaviour:
     volumeVariation: 0.1
     pitchVariation: 0.1
   CobbleAudioStep:
-  - stepClip: {fileID: 8300000, guid: d4458af4b2bf6d9419e6f31f19d64744, type: 3}
-    volume: 0
-    volumeVariation: 0
-    pitchVariation: 0
+  - stepClip: {fileID: 8300000, guid: 7c150fe2d71c79a4a9aa88a55d4ca3dd, type: 3}
+    volume: 0.5
+    volumeVariation: 0.025
+    pitchVariation: 0.1
+  - stepClip: {fileID: 8300000, guid: b00905debd6639f40b9cf0c13b6855bb, type: 3}
+    volume: 0.5
+    volumeVariation: 0.025
+    pitchVariation: 0.1
   UseDoubleSqueak: 0
+  DisableSqueak: 1
   MakeStepSound: 0
+--- !u!114 &9162972666593076196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491375761710819267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c250a151838bf6f48934cc0d1260102f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

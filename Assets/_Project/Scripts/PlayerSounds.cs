@@ -37,6 +37,7 @@ public class PlayerSounds : MonoBehaviour
 
 	[Header("Debug")]
 	public bool UseDoubleSqueak = true;
+	public bool DisableSqueak = true;
 	public bool MakeStepSound;
 
 	private void Start()
@@ -62,7 +63,7 @@ public class PlayerSounds : MonoBehaviour
 	public void DoWalkSound()
 	{
 		// By walking diagonally, even though only one animation
-        // shows, DoWalkSound() will be triggered twice.
+		// shows, DoWalkSound() will be triggered twice.
 		// To compensate, _disableDiagonalFootstepRetrigger is used.
 		if (_disableDiagonalFootstepRetrigger)
 		{
@@ -112,43 +113,50 @@ public class PlayerSounds : MonoBehaviour
 		var squeakIndex = Mathf.Min(_squeakAlternatingIndex, SqueakAudioStep.Length - 1);
 		var squeakClip = SqueakAudioStep[squeakIndex];
 
+		// Debug.Log($"randomAudio.stepClip: ${randomAudio.stepClip.name}");
 		SoundHelper.PlaySoundWithVariation(
 			randomAudio.stepClip,
 			randomAudio.volume,
-			randomAudio.volumeVariation,
+			randomAudio.volume != 0 ? randomAudio.volumeVariation : 0,
 			randomAudio.pitchVariation);
 
-		var squeakVolume = squeakClip.volume;
-		var squeakVolumeVariation = squeakClip.volumeVariation;
-
-		if (stepClips.SequenceEqual(PillowAudioStep))
+		if (!DisableSqueak)
 		{
-			squeakVolume = squeakVolume * PillowSqueakMultiplier;
-			squeakVolumeVariation = squeakVolumeVariation * PillowSqueakMultiplier;
-		}
-		if (UseDoubleSqueak)
-		{
-			SoundHelper.PlaySoundWithVariation(
-				squeakClip.stepClip,
-				squeakVolume / 2,
-				squeakVolumeVariation,
-				squeakClip.pitchVariation);
 
-			SoundHelper.PlaySoundWithVariation(
-				squeakClip.stepClip,
-				squeakVolume / 2,
-				squeakVolumeVariation);
-		}
-		else
-		{
-			SoundHelper.PlaySoundWithVariation(
-				squeakClip.stepClip,
-				squeakVolume,
-				squeakVolumeVariation,
-				squeakClip.pitchVariation);
+			var squeakVolume = squeakClip.volume;
+			var squeakVolumeVariation = squeakVolume != 0 ? squeakClip.volumeVariation : 0;
 
+			if (stepClips.SequenceEqual(PillowAudioStep))
+			{
+				squeakVolume = squeakVolume * PillowSqueakMultiplier;
+				squeakVolumeVariation = squeakVolumeVariation * PillowSqueakMultiplier;
+			}
+			if (UseDoubleSqueak)
+			{
+				SoundHelper.PlaySoundWithVariation(
+					squeakClip.stepClip,
+					squeakVolume / 2,
+					squeakVolumeVariation,
+					squeakClip.pitchVariation);
+
+				SoundHelper.PlaySoundWithVariation(
+					squeakClip.stepClip,
+					squeakVolume / 2,
+					squeakVolumeVariation);
+			}
+			else
+			{
+				// Debug.Log($"squeakClip.stepClip: ${squeakClip.stepClip.name}");
+				SoundHelper.PlaySoundWithVariation(
+					squeakClip.stepClip,
+					squeakVolume,
+					squeakVolumeVariation,
+					squeakClip.pitchVariation);
+
+			}
 		}
+		
 		_alternatingIndex = (_alternatingIndex + 1) % stepClips.Length;
-		squeakIndex = (squeakIndex + 1) % SqueakAudioStep.Length;
+		_squeakAlternatingIndex = (squeakIndex + 1) % SqueakAudioStep.Length;
 	}
 }

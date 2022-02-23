@@ -153,6 +153,7 @@ public class Player : MonoBehaviour
 		if (IsApproximately(OldPosition, Rigidbody.position))
 		{
 			//Animator.Play("Push");
+			Animator.Play("Idle");
 			return;
 		}
 

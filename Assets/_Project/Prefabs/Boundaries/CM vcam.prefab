@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 7059907800637305496}
   - component: {fileID: 7059907800637305503}
   m_Layer: 0
-  m_Name: CM vcam 1x1
+  m_Name: CM vcam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 240
+    OrthographicSize: 120
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
