@@ -9711,6 +9711,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1492432767, guid: 30fdcb3f56338d04e86803600fa920a6, type: 3}
+      propertyPath: StartingLife
+      value: 69
+      objectReference: {fileID: 0}
     - target: {fileID: 1492432768, guid: 30fdcb3f56338d04e86803600fa920a6, type: 3}
       propertyPath: BridgeTilemap
       value: 
@@ -15969,11 +15973,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room 1x1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4429508252915151265, guid: 51e609d1680233e4780db92f57f1af57,
-        type: 3}
-      propertyPath: m_Layer
-      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4429508252915151265, guid: 51e609d1680233e4780db92f57f1af57,
         type: 3}

@@ -16,6 +16,7 @@ MonoBehaviour:
   - Death
   - Jump
   - Astronaut_Jump
+  - Game Over
   _automaticImporting: 1
   _spritePixelsPerUnit: 1
   _targetObjectType: 0

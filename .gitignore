@@ -25,6 +25,10 @@
 /[Aa]ssets/Samples
 /[Aa]ssets/Samples.meta
 
+# Ignore Reaper files
+*.reapeaks
+*.reapeaks.meta
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
