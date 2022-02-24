@@ -317,11 +317,11 @@ MonoBehaviour:
     pitchVariation: 0.1
   AttackClips:
   - stepClip: {fileID: 8300000, guid: 73cd2d02fc8ba20439baaa9630868a8a, type: 3}
-    volume: 0.5
+    volume: 1
     volumeVariation: 0.05
     pitchVariation: 0.05
   - stepClip: {fileID: 8300000, guid: 20e8b1a261e280c4ba1b8b6231524799, type: 3}
-    volume: 0.5
+    volume: 1
     volumeVariation: 0.05
     pitchVariation: 0.05
   SqueakAudioStep:
@@ -344,20 +344,20 @@ MonoBehaviour:
     pitchVariation: 0.1
   BridgeAudioStep:
   - stepClip: {fileID: 8300000, guid: 2b3b29ee333544c4fa2ce386c596939a, type: 3}
-    volume: 0.5
+    volume: 0.9
     volumeVariation: 0.1
     pitchVariation: 0.1
   - stepClip: {fileID: 8300000, guid: b24ab5181fd9e954aaf7eef301189168, type: 3}
-    volume: 0.5
+    volume: 0.9
     volumeVariation: 0.1
     pitchVariation: 0.1
   CobbleAudioStep:
   - stepClip: {fileID: 8300000, guid: 7c150fe2d71c79a4a9aa88a55d4ca3dd, type: 3}
-    volume: 0.5
+    volume: 0.9
     volumeVariation: 0.025
     pitchVariation: 0.1
   - stepClip: {fileID: 8300000, guid: b00905debd6639f40b9cf0c13b6855bb, type: 3}
-    volume: 0.5
+    volume: 0.9
     volumeVariation: 0.025
     pitchVariation: 0.1
   UseDoubleSqueak: 0

@@ -26,7 +26,7 @@ public class UIManager : MonoBehaviour
     [Header("UI Elements")]
     public GameObject TitleScreen;
     public GameObject GameUI;
-    public Button PlayButton;
+    // public Button PlayButton;
     // public TutorialText TutorialText;
     // public LevelNameText LevelNameText;
 
@@ -57,7 +57,7 @@ public class UIManager : MonoBehaviour
                 GameUI.SetActive(!activeState);
                 Time.timeScale = 1;
 
-                PlayButton.Select();
+                // PlayButton.Select();
                 // Tutorial.Reset();
                 break;
             case GameState.Cutscene:
