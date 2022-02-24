@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5064863192409336494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5064863192409336492}
+  - component: {fileID: 5064863192409336495}
+  m_Layer: 0
+  m_Name: MusicManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5064863192409336492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064863192409336494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5064863192409336495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5064863192409336494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8467e36490426479fc83b69facafad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartingState: 1
+  BeginningCutsceneMusic: {fileID: 8300000, guid: c190def15ca037845a3b07151683fc54,
+    type: 3}
+  BeginningCutsceneVolume: 0.5
+  GameMusic: {fileID: 8300000, guid: f0b4a1b58397d5e42ac5acb40b9d5390, type: 3}
+  GameMusicVolume: 1
+  GameDrumMusic: {fileID: 8300000, guid: 1b0e54002aeffa94ead9a790fafd83e0, type: 3}
+  GameDrumMusicVolume: 1
+  EndCutsceneMusic: {fileID: 8300000, guid: c190def15ca037845a3b07151683fc54, type: 3}
+  EndCutsceneVolume: 0.5
+  MusicTailLength: 6
+  StartMusicByDefault: 1
+  DefaultGlobalMusicVolume: 0.5
+  DefaultGlobalSoundsVolume: 0.5
+  DefaultGlobalUISoundsVolume: 0.5
+  DefaultGlobalVolume: 0.5
+  ForcePlayMusic: 0
+  GetHellmadeSoundLevels: 0
