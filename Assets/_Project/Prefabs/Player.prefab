@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &883910743
 Transform:
   m_ObjectHideFlags: 0
@@ -38,7 +38,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883910742}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -85,7 +85,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479524750}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 3e0c57740b28f714b86b44d32bc4d7e4, type: 2}
   m_IsTrigger: 0
@@ -252,7 +252,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1000
-  m_LinearDrag: 24
+  m_LinearDrag: 64
   m_AngularDrag: 1000
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 3e0c57740b28f714b86b44d32bc4d7e4, type: 2}
@@ -276,12 +276,12 @@ MonoBehaviour:
   InvulTimer: 0
   AttackTimer: 0
   CurrentLife: 0
-  MoveSpeed: 140
+  MoveSpeed: 190
   InvulDuration: 2
   AttackCooldown: 0.2
   AttackMoveCooldown: 0.15
   AttackDistance: 10
-  StartingLife: 3
+  StartingLife: 69
   MaximumLife: 5
   AttackPrefab: {fileID: 8167665826887208758, guid: c41afcd5855471b4ca44e18fe98ce50d,
     type: 3}
