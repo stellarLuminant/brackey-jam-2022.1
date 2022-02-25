@@ -203,11 +203,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1728308582222581375, guid: 207492dc29ad7984aa62068deb08461c,
-        type: 3}
-      propertyPath: IdleWanderRadius
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7415429912691791377, guid: 207492dc29ad7984aa62068deb08461c,
         type: 3}
       propertyPath: m_RootOrder

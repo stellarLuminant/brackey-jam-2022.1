@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7415429912691791377}
-  - component: {fileID: 1722229117618357684}
-  - component: {fileID: 7130400295646308557}
   - component: {fileID: 1728308582222581375}
-  - component: {fileID: 6320987047767155220}
+  - component: {fileID: 3198447696780465163}
   - component: {fileID: 2810268463745332265}
   - component: {fileID: 2722634605916286530}
+  - component: {fileID: 1722229117618357684}
+  - component: {fileID: 7130400295646308557}
   m_Layer: 10
   m_Name: ImpMid
   m_TagString: Untagged
@@ -37,53 +37,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1722229117618357684
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7415429912691791382}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 2000
-  m_LinearDrag: 8
-  m_AngularDrag: 1000
-  m_GravityScale: 0
-  m_Material: {fileID: 6200000, guid: 3e0c57740b28f714b86b44d32bc4d7e4, type: 2}
-  m_Interpolate: 1
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!61 &7130400295646308557
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7415429912691791382}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 30, y: 35}
-    newSize: {x: 30, y: 35}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 10, y: 19}
-  m_EdgeRadius: 1
 --- !u!114 &1728308582222581375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,14 +57,14 @@ MonoBehaviour:
   NextIdleTarget: {x: 0, y: 0}
   LastIdleTarget: {x: 0, y: 0}
   MinIdleDuration: 2.5
-  IdleWanderRadius: 25
+  IdleWanderRadius: 0
   IdleWanderDuration: 0.6
   DetectionRadius: 300
   DisturbedMoveSpeed: 90
   DisturbedAccelFactor: 1.5
   ContactAttackPrefab: {fileID: 7872248848886686300, guid: fdee1f9f1e2798f42bdd9ef922968aff,
     type: 3}
---- !u!114 &6320987047767155220
+--- !u!114 &3198447696780465163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,10 +73,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7415429912691791382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 217d8079c714b7c45871bc15d935c603, type: 3}
+  m_Script: {fileID: 11500000, guid: b0bab16efe131e446a61830a5f501943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentLife: 2
+  Life: 2
+  HasHurtAnimation: 1
 --- !u!95 &2810268463745332265
 Animator:
   serializedVersion: 3
@@ -193,6 +147,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1722229117618357684
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415429912691791382}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 2000
+  m_LinearDrag: 8
+  m_AngularDrag: 1000
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 3e0c57740b28f714b86b44d32bc4d7e4, type: 2}
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!61 &7130400295646308557
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415429912691791382}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 30, y: 35}
+    newSize: {x: 30, y: 35}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10, y: 19}
+  m_EdgeRadius: 1
 --- !u!1 &7415429912878195221
 GameObject:
   m_ObjectHideFlags: 0
