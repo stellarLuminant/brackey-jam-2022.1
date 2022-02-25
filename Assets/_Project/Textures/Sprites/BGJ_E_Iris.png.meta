@@ -1,0 +1,2972 @@
+fileFormatVersion: 2
+guid: bfee6735c98e42c4ba9886196b30a7cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -25681420561917072
+    second: BGJ_E_Iris 0
+  - first:
+      213: 404173983666104836
+    second: BGJ_E_Iris 1
+  - first:
+      213: 1654157763013135771
+    second: BGJ_E_Iris 2
+  - first:
+      213: 6319049382923489343
+    second: BGJ_E_Iris 3
+  - first:
+      213: 3896972995465553933
+    second: BGJ_E_Iris 4
+  - first:
+      213: -6333935478517008476
+    second: BGJ_E_Iris 5
+  - first:
+      213: -2646510932468223450
+    second: BGJ_E_Iris 6
+  - first:
+      213: -1316353882877959893
+    second: BGJ_E_Iris 7
+  - first:
+      213: 3186366223046352367
+    second: BGJ_E_Iris 8
+  - first:
+      213: 7018924169611496962
+    second: BGJ_E_Iris 9
+  - first:
+      213: -5799459077636494265
+    second: BGJ_E_Iris 10
+  - first:
+      213: -8317295800251919309
+    second: BGJ_E_Iris 11
+  - first:
+      213: 7767396439627145438
+    second: BGJ_E_Iris 12
+  - first:
+      213: -1769994326207952035
+    second: BGJ_E_Iris 13
+  - first:
+      213: 1280764185171008818
+    second: BGJ_E_Iris 14
+  - first:
+      213: -9212065605953609622
+    second: BGJ_E_Iris 15
+  - first:
+      213: -1104558038181152305
+    second: BGJ_E_Iris 16
+  - first:
+      213: 214776635632685266
+    second: BGJ_E_Iris 17
+  - first:
+      213: 2627474963271027070
+    second: BGJ_E_Iris 18
+  - first:
+      213: -4541275850641053060
+    second: BGJ_E_Iris 19
+  - first:
+      213: 3528167214587854835
+    second: BGJ_E_Iris 20
+  - first:
+      213: -7423374337883076890
+    second: BGJ_E_Iris 21
+  - first:
+      213: -5752529324711174091
+    second: BGJ_E_Iris 22
+  - first:
+      213: -3908685086433068868
+    second: BGJ_E_Iris 23
+  - first:
+      213: 1126379564998966805
+    second: BGJ_E_Iris 24
+  - first:
+      213: 5808874298173159641
+    second: BGJ_E_Iris 25
+  - first:
+      213: 4681971158931168705
+    second: BGJ_E_Iris 26
+  - first:
+      213: 1441133535272702144
+    second: BGJ_E_Iris 27
+  - first:
+      213: 1778442988814079620
+    second: BGJ_E_Iris 28
+  - first:
+      213: -1997178018840553727
+    second: BGJ_E_Iris 29
+  - first:
+      213: 1393186223442816071
+    second: BGJ_E_Iris 30
+  - first:
+      213: -8643130952308878921
+    second: BGJ_E_Iris 31
+  - first:
+      213: -1716406524115928007
+    second: BGJ_E_Iris 32
+  - first:
+      213: 5180984721325857125
+    second: BGJ_E_Iris 33
+  - first:
+      213: -2704924975187906641
+    second: BGJ_E_Iris 34
+  - first:
+      213: -5678982117119148831
+    second: BGJ_E_Iris 35
+  - first:
+      213: 929304467707458428
+    second: BGJ_E_Iris 36
+  - first:
+      213: -4947094266568171785
+    second: BGJ_E_Iris 37
+  - first:
+      213: -4195450935277028835
+    second: BGJ_E_Iris 38
+  - first:
+      213: 358780036413105255
+    second: BGJ_E_Iris 39
+  - first:
+      213: -1425160642978505410
+    second: BGJ_E_Iris 40
+  - first:
+      213: -169767259990501263
+    second: BGJ_E_Iris 41
+  - first:
+      213: 161031775964075751
+    second: BGJ_E_Iris 42
+  - first:
+      213: -7292500860970573674
+    second: BGJ_E_Iris 43
+  - first:
+      213: 5830334046785140480
+    second: BGJ_E_Iris 44
+  - first:
+      213: -7006964797420545535
+    second: BGJ_E_Iris 45
+  - first:
+      213: 1903337556033000719
+    second: BGJ_E_Iris 46
+  - first:
+      213: 783930752274286258
+    second: BGJ_E_Iris 47
+  - first:
+      213: -3089682741755061887
+    second: BGJ_E_Iris 48
+  - first:
+      213: -3991005892026016967
+    second: BGJ_E_Iris 49
+  - first:
+      213: 264580662929167154
+    second: BGJ_E_Iris 50
+  - first:
+      213: 1773999688035729316
+    second: BGJ_E_Iris 51
+  - first:
+      213: -8230187484763845277
+    second: BGJ_E_Iris 52
+  - first:
+      213: 5271616157410658732
+    second: BGJ_E_Iris 53
+  - first:
+      213: -2221711992058137004
+    second: BGJ_E_Iris 54
+  - first:
+      213: -6870843814839239568
+    second: BGJ_E_Iris 55
+  - first:
+      213: -7098725339657612507
+    second: BGJ_E_Iris 56
+  - first:
+      213: -6788493445119514506
+    second: BGJ_E_Iris 57
+  - first:
+      213: -9089385543771787658
+    second: BGJ_E_Iris 58
+  - first:
+      213: 5777257495549447365
+    second: BGJ_E_Iris 59
+  - first:
+      213: -8240185730085844569
+    second: BGJ_E_Iris 60
+  - first:
+      213: 1521318171500798247
+    second: BGJ_E_Iris 61
+  - first:
+      213: 2179917919502593887
+    second: BGJ_E_Iris 62
+  - first:
+      213: 4882060100872567582
+    second: BGJ_E_Iris 63
+  - first:
+      213: 5337839397921707162
+    second: BGJ_E_Iris 64
+  - first:
+      213: 2282091902212351038
+    second: BGJ_E_Iris 65
+  - first:
+      213: -2446287233119706958
+    second: BGJ_E_Iris 66
+  - first:
+      213: -6057001363912588346
+    second: BGJ_E_Iris 67
+  - first:
+      213: -155836887540569568
+    second: BGJ_E_Iris 68
+  - first:
+      213: 7002240317745207986
+    second: BGJ_E_Iris 69
+  - first:
+      213: 5913461066152071829
+    second: BGJ_E_Iris 70
+  - first:
+      213: 3087740840602025081
+    second: BGJ_E_Iris 71
+  - first:
+      213: -6130075394161972981
+    second: BGJ_E_Iris 72
+  - first:
+      213: -7021674627735995302
+    second: BGJ_E_Iris 73
+  - first:
+      213: -4519051279117209150
+    second: BGJ_E_Iris 74
+  - first:
+      213: -7350685133187465947
+    second: BGJ_E_Iris 75
+  - first:
+      213: -7986105359379825879
+    second: BGJ_E_Iris 76
+  - first:
+      213: -259599233551623539
+    second: BGJ_E_Iris 77
+  - first:
+      213: -3634448581068512953
+    second: BGJ_E_Iris 78
+  - first:
+      213: 3196698623983079647
+    second: BGJ_E_Iris 79
+  - first:
+      213: -168235561097185634
+    second: BGJ_E_Iris 80
+  - first:
+      213: -2723095045883601827
+    second: BGJ_E_Iris 81
+  - first:
+      213: -1625624781010307240
+    second: BGJ_E_Iris 82
+  - first:
+      213: -4742740734663069740
+    second: BGJ_E_Iris 83
+  - first:
+      213: 4488550226793380609
+    second: BGJ_E_Iris 84
+  - first:
+      213: 7834973423259963742
+    second: BGJ_E_Iris 85
+  - first:
+      213: 6399132037184800722
+    second: BGJ_E_Iris 86
+  - first:
+      213: -776241278385785073
+    second: BGJ_E_Iris 87
+  - first:
+      213: -8157009806065323898
+    second: BGJ_E_Iris 88
+  - first:
+      213: -7303042397023653333
+    second: BGJ_E_Iris 89
+  - first:
+      213: -7336112251636026928
+    second: BGJ_E_Iris 90
+  - first:
+      213: 3401316519431489372
+    second: BGJ_E_Iris 91
+  - first:
+      213: 793830620442707784
+    second: BGJ_E_Iris 92
+  - first:
+      213: 1531945303992830025
+    second: BGJ_E_Iris 93
+  - first:
+      213: -4224212707087577025
+    second: BGJ_E_Iris 94
+  - first:
+      213: 832545403432848328
+    second: BGJ_E_Iris 95
+  - first:
+      213: 94701638266372176
+    second: BGJ_E_Iris 96
+  - first:
+      213: -7511628613620337905
+    second: BGJ_E_Iris 97
+  - first:
+      213: -8174145673544073469
+    second: BGJ_E_Iris 98
+  - first:
+      213: 1439153397621611266
+    second: BGJ_E_Iris 99
+  - first:
+      213: -6753504953963397239
+    second: BGJ_E_Iris 100
+  - first:
+      213: -8000396515376219202
+    second: BGJ_E_Iris 101
+  - first:
+      213: 3409559249625730990
+    second: BGJ_E_Iris 102
+  - first:
+      213: -5081677095005578159
+    second: BGJ_E_Iris 103
+  - first:
+      213: -3252350804889973618
+    second: BGJ_E_Iris 104
+  - first:
+      213: 8329537833882564275
+    second: BGJ_E_Iris 105
+  - first:
+      213: -2820314168500363257
+    second: BGJ_E_Iris 106
+  - first:
+      213: 6387084523655654189
+    second: BGJ_E_Iris 107
+  - first:
+      213: -1044680489724567238
+    second: BGJ_E_Iris 108
+  - first:
+      213: 5776895171406133651
+    second: BGJ_E_Iris 109
+  - first:
+      213: -2791499483544023439
+    second: BGJ_E_Iris 110
+  - first:
+      213: -1771749528415681082
+    second: BGJ_E_Iris 111
+  - first:
+      213: 7252415923430992042
+    second: BGJ_E_Iris 112
+  - first:
+      213: 5292289595887864568
+    second: BGJ_E_Iris 113
+  - first:
+      213: 6497938736779603842
+    second: BGJ_E_Iris 114
+  - first:
+      213: 2845566960304984057
+    second: BGJ_E_Iris 115
+  - first:
+      213: -6440113745665338251
+    second: BGJ_E_Iris 116
+  - first:
+      213: -336298029310977081
+    second: BGJ_E_Iris 117
+  - first:
+      213: -720336759201803699
+    second: BGJ_E_Iris 118
+  - first:
+      213: -4386679222850092724
+    second: BGJ_E_Iris 119
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 350
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGJ_E_Iris 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b541252e2c4aff0800000000000000
+      internalID: -25681420561917072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a6fd3c81aeb9500800000000000000
+      internalID: 404173983666104836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d4adaa8bfb4f610800000000000000
+      internalID: 1654157763013135771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f305e4b1fe5c1b750800000000000000
+      internalID: 6319049382923489343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08a306da44d41630800000000000000
+      internalID: 3896972995465553933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7ffbcad375918a0800000000000000
+      internalID: -6333935478517008476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6223b082454b54bd0800000000000000
+      internalID: -2646510932468223450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 7
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b216a5c2e1f5bbde0800000000000000
+      internalID: -1316353882877959893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed1bf0a23f383c20800000000000000
+      internalID: 3186366223046352367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ec81b285a386160800000000000000
+      internalID: 7018924169611496962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cef0c12be248fa0800000000000000
+      internalID: -5799459077636494265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334d22e5987039c80800000000000000
+      internalID: -8317295800251919309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed02c9d88e55bcb60800000000000000
+      internalID: 7767396439627145438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b0be3c987bf67e0800000000000000
+      internalID: -1769994326207952035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d192a9d3036c110800000000000000
+      internalID: 1280764185171008818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60aa85932b282080800000000000000
+      internalID: -9212065605953609622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9f8640152dba0f0800000000000000
+      internalID: -1104558038181152305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d090f0563a0bf200800000000000000
+      internalID: 214776635632685266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e798002ee8aa67420800000000000000
+      internalID: 2627474963271027070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 252
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7aea7faca52af0c0800000000000000
+      internalID: -4541275850641053060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff30bd736196f030800000000000000
+      internalID: 3528167214587854835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e68ab3de50eaf890800000000000000
+      internalID: -7423374337883076890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530a290be09ea20b0800000000000000
+      internalID: -5752529324711174091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb83a4c7f9f81c9c0800000000000000
+      internalID: -3908685086433068868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 24
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51eb50e1f34b1af00800000000000000
+      internalID: 1126379564998966805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8f18fb5644d9050800000000000000
+      internalID: 5808874298173159641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd57b086f3b9f040800000000000000
+      internalID: 4681971158931168705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c015db905feff310800000000000000
+      internalID: 1441133535272702144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4861c89c97c4ea810800000000000000
+      internalID: 1778442988814079620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1075ac16c299844e0800000000000000
+      internalID: -1997178018840553727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ce6422d77955310800000000000000
+      internalID: 1393186223442816071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b11270313e6d0880800000000000000
+      internalID: -8643130952308878921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c38e73c591e28e0800000000000000
+      internalID: -1716406524115928007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5699a5d672e86e740800000000000000
+      internalID: 5180984721325857125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 34
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafa7ddf01d267ad0800000000000000
+      internalID: -2704924975187906641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec315f5ad33031b0800000000000000
+      internalID: -5678982117119148831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73f2ed5d7d85ec00800000000000000
+      internalID: 929304467707458428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 37
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe15d2b9f3685bb0800000000000000
+      internalID: -4947094266568171785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 38
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a7b325a93c6c5c0800000000000000
+      internalID: -4195450935277028835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 39
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764a7eeca84aaf400800000000000000
+      internalID: 358780036413105255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d166f22ffc83ce0800000000000000
+      internalID: -1425160642978505410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 41
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17856c5939dd4adf0800000000000000
+      internalID: -169767259990501263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 42
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e693eb0c891c3200800000000000000
+      internalID: 161031775964075751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6906e91ba15dbca90800000000000000
+      internalID: -7292500860970573674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 288
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0077e74dce189e050800000000000000
+      internalID: 5830334046785140480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 45
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ad41824a242ce90800000000000000
+      internalID: -7006964797420545535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 46
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05d1034c630a6a10800000000000000
+      internalID: 1903337556033000719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 47
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b640d1add411ea00800000000000000
+      internalID: 783930752274286258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189d80d8aed3f15d0800000000000000
+      internalID: -3089682741755061887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b5c4559491d98c0800000000000000
+      internalID: -3991005892026016967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 50
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233945c06bafba300800000000000000
+      internalID: 264580662929167154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aff50531538e9810800000000000000
+      internalID: 1773999688035729316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d09c7861088cd80800000000000000
+      internalID: -8230187484763845277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 53
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca90ca607fa882940800000000000000
+      internalID: 5271616157410658732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 54
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4563620e6b4ea21e0800000000000000
+      internalID: -2221711992058137004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 216
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c315524fbd5a0a0800000000000000
+      internalID: -6870843814839239568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 56
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523d4ab0ae24c7d90800000000000000
+      internalID: -7098725339657612507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 57
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678659bbd2d6ac1a0800000000000000
+      internalID: -6788493445119514506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 58
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e69ec61040cd180800000000000000
+      internalID: -9089385543771787658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 59
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc003e3511fc2050800000000000000
+      internalID: 5777257495549447365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 60
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a98df2acbaf4ad80800000000000000
+      internalID: -8240185730085844569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 61
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721e6a211decc1510800000000000000
+      internalID: 1521318171500798247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 62
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fe57f4ccf904e10800000000000000
+      internalID: 2179917919502593887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 144
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bfd94abcf80c340800000000000000
+      internalID: 4882060100872567582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94553db6a0d31a40800000000000000
+      internalID: 5337839397921707162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34a9287e7e9baf10800000000000000
+      internalID: 2282091902212351038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 66
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0a353f8ba0d0ed0800000000000000
+      internalID: -2446287233119706958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 67
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c30fe3d95531fba0800000000000000
+      internalID: -6057001363912588346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 68
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02aed3b2d2b56ddf0800000000000000
+      internalID: -155836887540569568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba1f133874fc2160800000000000000
+      internalID: 7002240317745207986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 70
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592d8114285d01250800000000000000
+      internalID: 5913461066152071829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 71
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cbc8a5febd9da20800000000000000
+      internalID: 3087740840602025081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09ec9458e89deaa0800000000000000
+      internalID: -6130075394161972981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 73
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c3c65e0200e8e90800000000000000
+      internalID: -7021674627735995302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1b17afdca1941c0800000000000000
+      internalID: -4519051279117209150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dbd9421de1df990800000000000000
+      internalID: -7350685133187465947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 76
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b7253ec77ab2190800000000000000
+      internalID: -7986105359379825879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 77
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a113c5fd7b56cf0800000000000000
+      internalID: -259599233551623539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 78
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7412dfa8548df8dc0800000000000000
+      internalID: -3634448581068512953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0dd703674fc5c20800000000000000
+      internalID: 3196698623983079647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 80
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96b63606ae4aadf0800000000000000
+      internalID: -168235561097185634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 81
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c5b7cbb7f953ad0800000000000000
+      internalID: -2723095045883601827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 82
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857fec5efde9079e0800000000000000
+      internalID: -1625624781010307240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 83
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfe1a01e666e2eb0800000000000000
+      internalID: -4742740734663069740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 84
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bb48066a88a4e30800000000000000
+      internalID: 4488550226793380609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51590621da6bbc60800000000000000
+      internalID: 7834973423259963742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 86
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7c83b0fa84ec850800000000000000
+      internalID: 6399132037184800722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 87
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07f1d58bac3a35f0800000000000000
+      internalID: -776241278385785073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 88
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68039109cca7cce80800000000000000
+      internalID: -8157009806065323898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 89
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22b9c112a166aa90800000000000000
+      internalID: -7303042397023653333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1f7d886c4e03a90800000000000000
+      internalID: -7336112251636026928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 91
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57c16d7a57e33f20800000000000000
+      internalID: 3401316519431489372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 92
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847c05f4eb0440b00800000000000000
+      internalID: 793830620442707784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 93
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94802db2320924510800000000000000
+      internalID: 1531945303992830025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 94
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f309a5a7ce49065c0800000000000000
+      internalID: -4224212707087577025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 95
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbcff622abcd8b00800000000000000
+      internalID: 832545403432848328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 96
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050c38463a2705100800000000000000
+      internalID: 94701638266372176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 97
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03ff70039551c790800000000000000
+      internalID: -7511628613620337905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 98
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ffb1281d99f8e80800000000000000
+      internalID: -8174145673544073469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 99
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b5882e366e8f310800000000000000
+      internalID: 1439153397621611266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fbb26a60bb642a0800000000000000
+      internalID: -6753504953963397239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 101
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb3ab6d1c1e8f090800000000000000
+      internalID: -8000396515376219202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 102
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafc69aa210315f20800000000000000
+      internalID: 3409559249625730990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c14f02b914a79b0800000000000000
+      internalID: -5081677095005578159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 104
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cc395bc245dd2d0800000000000000
+      internalID: -3252350804889973618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 105
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b63fb33786789370800000000000000
+      internalID: 8329537833882564275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 106
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 180
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700e887d43b3cd8d0800000000000000
+      internalID: -2820314168500363257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 107
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2be3e6b88b73a850800000000000000
+      internalID: 6387084523655654189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 108
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31af2a21ac8081f0800000000000000
+      internalID: -1044680489724567238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399f4541d87ab2050800000000000000
+      internalID: 5776895171406133651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 110
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 36
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e0cac720a9249d0800000000000000
+      internalID: -2791499483544023439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 111
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 72
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c541d7e03b7967e0800000000000000
+      internalID: -1771749528415681082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 112
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8ad7f7bd1c5a460800000000000000
+      internalID: 7252415923430992042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 113
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa4463095df17940800000000000000
+      internalID: 5292289595887864568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 114
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28faff18ad05d2a50800000000000000
+      internalID: 6497938736779603842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 115
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff019de21c7d7720800000000000000
+      internalID: 2845566960304984057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 116
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574d1846bae10a6a0800000000000000
+      internalID: -6440113745665338251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 117
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb514069ba355bf0800000000000000
+      internalID: -336298029310977081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 118
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42de15b889d006f0800000000000000
+      internalID: -720336759201803699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_E_Iris 119
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c410f6a0d726f13c0800000000000000
+      internalID: -4386679222850092724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -54,10 +54,11 @@ MonoBehaviour:
   EndCutsceneMusic: {fileID: 8300000, guid: c190def15ca037845a3b07151683fc54, type: 3}
   EndCutsceneVolume: 0.5
   MusicTailLength: 6
+  GameMusicTailLength: 6
   StartMusicByDefault: 1
-  DefaultGlobalMusicVolume: 0.5
-  DefaultGlobalSoundsVolume: 0.5
-  DefaultGlobalUISoundsVolume: 0.5
+  DefaultGlobalMusicVolume: 0.75
+  DefaultGlobalSoundsVolume: 0.75
+  DefaultGlobalUISoundsVolume: 0.75
   DefaultGlobalVolume: 0.5
   ForcePlayMusic: 0
   GetHellmadeSoundLevels: 0
