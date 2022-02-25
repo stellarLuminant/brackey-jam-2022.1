@@ -34,6 +34,8 @@ public class BehaviorImp : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
 
+    private Animator _animator;
+
     private GameObject _contactAttackObject;
 
     [Header("Parameters")]
@@ -78,6 +80,8 @@ public class BehaviorImp : MonoBehaviour
             Debug.LogError("BehaviorImp.Start(): could not find attached contact attack prefab");
         }
 
+        _animator = GetComponent<Animator>();
+
         InitIdle();
     }
 
@@ -110,6 +114,7 @@ public class BehaviorImp : MonoBehaviour
         IdleAnchor = _rigidbody.position;
         CanBeDisturbedTime = Time.fixedTime + MinIdleDuration;
         IdleReposition(_rigidbody.position);
+        _animator.SetBool("Idle", true);
         if (_contactAttackObject != null)
             Destroy(_contactAttackObject);
     }
@@ -137,6 +142,7 @@ public class BehaviorImp : MonoBehaviour
     {
         IsIdle = false;
         _contactAttackObject = UnityEngine.GameObject.Instantiate(ContactAttackPrefab, transform);
+        _animator.SetBool("Idle", false);
     }
 
     void UpdateDisturbed()
@@ -150,11 +156,29 @@ public class BehaviorImp : MonoBehaviour
             InitIdle();
     }
 
+    void UpdateAnimation()
+    {
+        var displacement = IsIdle ? NextIdleTarget - LastIdleTarget : _rigidbody.velocity;
+
+        if (displacement == Vector2.zero)
+            return;
+
+        var direction = displacement.normalized;
+        _animator.SetFloat("Horizontal", direction.x);
+        _animator.SetFloat("Vertical", direction.y);
+    }
+
+
     void FixedUpdate()
     {
         if (IsIdle)
             UpdateIdle();
         else
             UpdateDisturbed();
+    }
+
+    void Update()
+    {
+        UpdateAnimation();
     }
 }
