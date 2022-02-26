@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 15, y: 16}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4405334521559000147
 CanvasRenderer:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7296412518370999326, guid: ea8f09c5c5d8b6442b7b35869e1747da,
+  m_Sprite: {fileID: -2607576362974450834, guid: 3cfd9053b47602e4aa11c590cd7c1f06,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -138,7 +138,7 @@ Animator:
   m_GameObject: {fileID: 6214921288663997911}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4f7d7d76c68b2fa419f0f5fbc72e2603, type: 2}
+  m_Controller: {fileID: 9100000, guid: dd7d14062206bdb4fbade540a46e724d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -160,5 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 510819619124557317}
-  fullAnimName: Full
-  emptyAnimName: Empty
+  fillAnimName: heart refilled
+  fullAnimName: heart filled
+  extraHeartAnimName: extra heart
+  lostAnimName: heart lost

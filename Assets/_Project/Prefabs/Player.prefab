@@ -311,10 +311,15 @@ MonoBehaviour:
   BridgeTilemap: {fileID: 0}
   CobbleTilemap: {fileID: 0}
   HurtClip:
-    stepClip: {fileID: 0}
-    volume: 1
+    stepClip: {fileID: 8300000, guid: 840cf88162020f549af5194ac2015a1a, type: 3}
+    volume: 0.5
     volumeVariation: 0
-    pitchVariation: 0.1
+    pitchVariation: 0
+  DeathClip:
+    stepClip: {fileID: 8300000, guid: 32c0462e04595724b941c3e2f79d81f8, type: 3}
+    volume: 0.5
+    volumeVariation: 0
+    pitchVariation: 0
   AttackClips:
   - stepClip: {fileID: 8300000, guid: 73cd2d02fc8ba20439baaa9630868a8a, type: 3}
     volume: 1

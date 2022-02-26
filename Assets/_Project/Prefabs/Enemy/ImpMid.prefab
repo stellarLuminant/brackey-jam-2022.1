@@ -78,6 +78,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Life: 2
   HasHurtAnimation: 1
+  ExplosionPrefab: {fileID: 6535179215698491213, guid: f61d4c4395da76546a30ba2bd462f14d,
+    type: 3}
 --- !u!95 &2810268463745332265
 Animator:
   serializedVersion: 3

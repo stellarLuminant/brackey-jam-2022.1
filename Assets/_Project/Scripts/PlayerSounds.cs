@@ -31,6 +31,7 @@ public class PlayerSounds : MonoBehaviour
 
 	[Header("Sound Data")]
 	public AudioStepClip HurtClip;
+	public AudioStepClip DeathClip;
 	public AudioStepClip[] AttackClips;
 	public AudioStepClip[] SqueakAudioStep;
 	public AudioStepClip[] PillowAudioStep;
@@ -74,6 +75,7 @@ public class PlayerSounds : MonoBehaviour
 			clip.volume != 0 ? clip.volumeVariation : 0,
 			clip.pitchVariation);
 	}
+
 	public void DoWalkSound()
 	{
 		// By walking diagonally, even though only one animation
@@ -111,7 +113,6 @@ public class PlayerSounds : MonoBehaviour
 				else if (hitColliders[i].name.Equals(PillowTilemap.name))
 				{
 					stepClips = PillowAudioStep;
-
 				}
 			}
 		}
@@ -180,5 +181,9 @@ public class PlayerSounds : MonoBehaviour
 	{
 		PlaySoundGenerically(HurtClip);
 	}
-
+	
+	public void DoDeathSound()
+	{
+		PlaySoundGenerically(DeathClip);
+	}
 }

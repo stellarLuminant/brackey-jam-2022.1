@@ -40,6 +40,8 @@ public class Player : MonoBehaviour
 	// Contains Time.time, when the first attack animation was played.
 	private float AttackTimestamp;
 
+	private HeartContainer Hearts;
+
 	#endregion State
 
 	#region Parameters
@@ -187,13 +189,17 @@ public class Player : MonoBehaviour
 		Animator = GetComponent<Animator>();
 		Rigidbody = GetComponent<Rigidbody2D>();
 		Sounds = GetComponent<PlayerSounds>();
+		Hearts = FindObjectOfType<HeartContainer>();
 
 		// Player looks down on init.
 		SetLookDirection(new Vector3(0, -1, 0));
-		CurrentLife = StartingLife;
 
 		// Animation variable startup
 		Animator.SetBool("Idle", true);
+
+		// Health logic
+		CurrentLife = StartingLife;
+		Hearts.Init(CurrentLife);
 	}
 
 	private void UpdateMovement()
@@ -203,6 +209,9 @@ public class Player : MonoBehaviour
 		if (IsInAttackStop)
 			return;
 
+		if (CurrentLife <= 0)
+			return;
+
 		Vector3 moveDir = GetMoveDirection();
 		Rigidbody.velocity = moveDir * MoveSpeed;
 		SetLookDirection(moveDir);
@@ -210,6 +219,9 @@ public class Player : MonoBehaviour
 
 	private void UpdateAttack()
 	{
+		if (CurrentLife <= 0)
+			return;
+
 		AttackTimer = Mathf.Max(0, AttackTimer - Time.deltaTime);
 
 		if (AttackTimer > 0 || (!IsAttackPressed && !AttackBuffer))
@@ -309,15 +321,19 @@ public class Player : MonoBehaviour
 		if (InvulTimer > 0)
 			return;
 
+		if (CurrentLife <= 0)
+			return;
+
 		CurrentLife -= 1;
 		InvulTimer = InvulDuration;
+
+		Hearts.Health = CurrentLife;
 
 		var isIdle = GetMoveDirection() == Vector3.zero;
 		if (CurrentLife > 0)
 		{
 			Debug.Log("Player.ReceiveAttack(): player received damage");
 			// TODO: Hurt and game over states.
-			// PlaySound("Ouch!");
 			Sounds.DoHurtSound();
 			Animator.Play("Ouch");
 			Animator.SetBool("Idle", isIdle);
@@ -325,7 +341,8 @@ public class Player : MonoBehaviour
 		else
 		{
 			Debug.Log("Player.ReceiveAttack(): player lost all life");
-			// PlaySound("Oh no!");
+			Sounds.DoHurtSound();
+			Sounds.DoDeathSound();
 			Animator.Play("Game Over");
 			Animator.SetBool("Idle", isIdle);
 			// TellManagerThatTheresAGameOver();

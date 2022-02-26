@@ -3,47 +3,55 @@ using UnityEngine;
 
 public class EnemyLife : MonoBehaviour
 {
-  [Header("State")]
-  // The current number of life points the enemy has.
-  public Int32 Life = 1;
+	[Header("State")]
+	// The current number of life points the enemy has.
+	public Int32 Life = 1;
 
-  private Animator _animator;
+	private Animator _animator;
 
-  private Rigidbody2D _rigidbody;
+	private Rigidbody2D _rigidbody;
 
-  [Header("Parameters")]
-  // Emits a "Hurt" trigger to the animator if true.
-  public Boolean HasHurtAnimation = false;
+	[Header("Parameters")]
+	// Emits a "Hurt" trigger to the animator if true.
+	public Boolean HasHurtAnimation = false;
 
-  void Start() 
-  {
-    if (HasHurtAnimation)
-      _animator = GetComponent<Animator>();
+	public GameObject ExplosionPrefab;
 
-    _rigidbody = GetComponent<Rigidbody2D>();
-  }
+	void Start()
+	{
+		if (HasHurtAnimation)
+			_animator = GetComponent<Animator>();
 
-  void Update() { }
+		_rigidbody = GetComponent<Rigidbody2D>();
+	}
 
-  private void ReceiveAttack()
-  {
-    Life = Mathf.Max(0, Life - 1);
+	void Update() { }
 
-    _rigidbody.velocity = Vector2.zero;
+	private void ReceiveAttack()
+	{
+		Life = Mathf.Max(0, Life - 1);
 
-    if (HasHurtAnimation)
-      _animator?.SetTrigger("Hurt");
+		_rigidbody.velocity = Vector2.zero;
 
-    if (Life == 0)
-      Destroy(gameObject);
-  }
+		if (HasHurtAnimation)
+			_animator?.SetTrigger("Hurt");
 
-  private void OnTriggerEnter2D(Collider2D c)
-  {
-    if (c.gameObject.layer == Utils.PlayerAttackLayer)
-    {
-      ReceiveAttack();
-      return;
-    }
-  }
+		if (Life == 0)
+		{
+			if (ExplosionPrefab)
+			{
+				Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+			}
+			Destroy(gameObject);
+		}
+	}
+
+	private void OnTriggerEnter2D(Collider2D c)
+	{
+		if (c.gameObject.layer == Utils.PlayerAttackLayer)
+		{
+			ReceiveAttack();
+			return;
+		}
+	}
 }

@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 82e0a67bff302d24ab3d92e91a8f6b11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3220779523118470526
+    second: BGJ_explosions 0
+  - first:
+      213: -5179158666302150865
+    second: BGJ_explosions 1
+  - first:
+      213: -401073899847780804
+    second: BGJ_explosions 2
+  - first:
+      213: 152855134413690062
+    second: BGJ_explosions 3
+  - first:
+      213: -2881726165124576110
+    second: BGJ_explosions 4
+  - first:
+      213: -5918016297792801741
+    second: BGJ_explosions 5
+  - first:
+      213: 8951485708056723883
+    second: BGJ_explosions 6
+  - first:
+      213: -4395101634041900323
+    second: BGJ_explosions 7
+  - first:
+      213: 1264550992103463888
+    second: BGJ_explosions 8
+  - first:
+      213: 4633298413249468307
+    second: BGJ_explosions 9
+  - first:
+      213: 9056438926461576076
+    second: BGJ_explosions 10
+  - first:
+      213: 1922907281115418723
+    second: BGJ_explosions 11
+  - first:
+      213: -9169538415586782003
+    second: BGJ_explosions 12
+  - first:
+      213: -4860533126201773986
+    second: BGJ_explosions 13
+  - first:
+      213: 8483715009648411391
+    second: BGJ_explosions 14
+  - first:
+      213: 5059460885892414393
+    second: BGJ_explosions 15
+  - first:
+      213: -3129153640672398564
+    second: BGJ_explosions 16
+  - first:
+      213: 5288836567920423377
+    second: BGJ_explosions 17
+  - first:
+      213: 7324826794927274362
+    second: BGJ_explosions 18
+  - first:
+      213: -2765885633871454771
+    second: BGJ_explosions 19
+  - first:
+      213: 7472091647236169875
+    second: BGJ_explosions 20
+  - first:
+      213: -1437837508055844043
+    second: BGJ_explosions 21
+  - first:
+      213: 1058716651994909503
+    second: BGJ_explosions 22
+  - first:
+      213: -2964907380850749905
+    second: BGJ_explosions 23
+  - first:
+      213: -178973853081096308
+    second: BGJ_explosions 24
+  - first:
+      213: 7759308657584551703
+    second: BGJ_explosions 25
+  - first:
+      213: -4839075693664981115
+    second: BGJ_explosions 26
+  - first:
+      213: 5377732760986786012
+    second: BGJ_explosions 27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 306
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BGJ_explosions 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28aeba0961e7d43d0800000000000000
+      internalID: -3220779523118470526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 164
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27aca322aeef18b0800000000000000
+      internalID: -5179158666302150865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 164
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3674eeb9691f6af0800000000000000
+      internalID: -401073899847780804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 164
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec492d45fec0f1200800000000000000
+      internalID: 152855134413690062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 164
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c0dc3225d0208d0800000000000000
+      internalID: -2881726165124576110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 164
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334761b388bfedda0800000000000000
+      internalID: -5918016297792801741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba105b013d01a3c70800000000000000
+      internalID: 8951485708056723883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 123
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2913f99567103c0800000000000000
+      internalID: -4395101634041900323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 123
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbd1bc6d669c8110800000000000000
+      internalID: 1264550992103463888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 123
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3979d1ccb58cc4040800000000000000
+      internalID: 4633298413249468307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 123
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8323c5783feead70800000000000000
+      internalID: 9056438926461576076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 123
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36095e2fbf98faa10800000000000000
+      internalID: 1922907281115418723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4d6a0b4614fb080800000000000000
+      internalID: -9169538415586782003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 82
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5079b9bfdaeb8cb0800000000000000
+      internalID: -4860533126201773986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 82
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff24eb54ad53cb570800000000000000
+      internalID: 8483715009648411391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 82
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbb99a9ed0d63640800000000000000
+      internalID: 5059460885892414393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 82
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13f910c7530394d0800000000000000
+      internalID: -3129153640672398564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 82
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d13ef946d8b56940800000000000000
+      internalID: 5288836567920423377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7937e0592307a560800000000000000
+      internalID: 7324826794927274362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 41
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd5cb79ba99d99d0800000000000000
+      internalID: -2765885633871454771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 41
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390ecaaa3c332b760800000000000000
+      internalID: 7472091647236169875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 41
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b39978766cb0ce0800000000000000
+      internalID: -1437837508055844043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 41
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b82f78f2151be00800000000000000
+      internalID: 1058716651994909503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 41
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e057422788ad6d0800000000000000
+      internalID: -2964907380850749905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fa4079a38248df0800000000000000
+      internalID: -178973853081096308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717b0fd0d1a9eab60800000000000000
+      internalID: 7759308657584551703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 26
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f2fdd8b4628dcb0800000000000000
+      internalID: -4839075693664981115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGJ_explosions 27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd81993247b81aa40800000000000000
+      internalID: 5377732760986786012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
